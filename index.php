@@ -15,15 +15,15 @@
   <!-- Meta tags -->
   <meta name="author" content="Uixsoftware">
   <meta name="keywords" content="hamburguesas, habana, comida, food, flaviofast, 5taya, caseras, calidad, cuba, vedado, rapida">
-  <meta name="description" content="FlavioFast | Hamburguesas Caseras">
-  <meta property="og:description" content="¡Descubre el auténtico sabor de nuestras deliciosas hamburguesas caseras! ¡Ven y prueba una experiencia culinaria única en nuestra ciudad!">
+  <meta name="description" content="Habana5Rooftop">
+  <meta property="og:description" content="¡Descubre el auténtico sabor de nuestros deliciosos platos! ¡Ven y prueba una experiencia culinaria única en nuestra ciudad!">
   <meta property="og:url" content="https://flaviofast.com/">
   <meta property="og:image" content="https://flaviofast.com/assets/img/logos/logo_hbn5.webp">
   <meta property="og:type" content="website">
-  <meta property="og:title" content="FlavioFast | Hamburguesas Caseras">
+  <meta property="og:title" content="Habana5Rooftop">
   <meta name="twitter:card" content="summary_large_image">
-  <meta name="twitter:title" content="FlavioFast | Hamburguesas Caseras">
-  <meta name="twitter:description" content="¡Descubre el auténtico sabor de nuestras deliciosas hamburguesas caseras! ¡Ven y prueba una experiencia culinaria única en nuestra ciudad!">
+  <meta name="twitter:title" content="Habana5Rooftop">
+  <meta name="twitter:description" content="¡Descubre el auténtico sabor de nuestros deliciosos platos! ¡Ven y prueba una experiencia culinaria única en nuestra ciudad!">
   <meta name="twitter:image" content="https://flaviofast.com/assets/img/logos/logoux.png">
   <meta name="contact" content="soporte@uixsoftware.com">
   <meta name="copyright" content="Copyright (c) 2024. Uixsoftware. All Rights Reserved.">
@@ -34,7 +34,7 @@
 
 
   
-    <link rel="shortcut icon" href="assets/img/logos/logoux.png">
+    <link rel="shortcut icon" href="assets/img/logos/logo_hbn5.webp">
     <link rel="stylesheet" href="assets/css/uixsoftware.css">
     <link rel="stylesheet" href="assets/css/uixsoftware.min.css">
     <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
