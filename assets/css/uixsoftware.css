@@ -56,6 +56,56 @@ src: url('../fonts/hyperx.otf') format('truetype');
 }
 
 
+
+
+
+.hero-btn-8{
+  font-family: 'hyper', sans-serif !important;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  gap: 5px;
+  font-size: 15px;
+  letter-spacing: 0.2px;
+  text-decoration: none;
+  color: #1a362f !important;
+  -webkit-transition: all 0.15s linear 0s;
+  -o-transition: all 0.15s linear 0s;
+  transition: all 0.15s linear 0s;
+  padding: 12px 18px;
+  background: #ffeac5;
+  border-radius: 50px;
+}
+.hero-btn-8 svg {
+  stroke-width: 2px;
+  fill: none;
+  stroke: currentColor;
+}
+.hero-btn-8 svg .line {
+  opacity: 0;
+  -webkit-transition: all 0.15s linear 0s;
+  -o-transition: all 0.15s linear 0s;
+  transition: all 0.15s linear 0s;
+}
+.hero-btn-8 svg .tip {
+  transform: translateX(0);
+  -webkit-transition: all 0.15s linear 0s;
+  -o-transition: all 0.15s linear 0s;
+  transition: all 0.15s linear 0s;
+}
+.hero-btn-8:hover {
+  background: #efd9b1 !important;
+  color: #ffffff !important;
+}
+.hero-btn-8:hover svg .line {
+  opacity: 1;
+}
+.hero-btn-8:hover svg .tip {
+  transform: translateX(3px);
+}
+
+
+
 .hero-btn-2{
   font-family: 'hyper', sans-serif !important;
   display: inline-flex;

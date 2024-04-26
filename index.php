@@ -84,7 +84,7 @@
                     <center>
                     <div class="mt-8 d-grid" style="max-width: 350px;">
                   
-                    <a href="#" class="hero-btn-2 px-4 mt-3" data-bs-toggle="offcanvas" data-bs-target="#offcanvasBottom" aria-controls="offcanvasBottom">
+                    <a href="#" class="hero-btn-8 px-4 mt-3" data-bs-toggle="offcanvas" data-bs-target="#offcanvasBottom" aria-controls="offcanvasBottom">
                       Nuestro carta
                       <svg width="10" height="10" viewBox="0 0 10 10" aria-hidden="true">
                           <g fill-rule="evenodd">
@@ -95,7 +95,7 @@
                   </a>
 
 
-                  <a href="#" class="hero-btn-2 px-4 mt-3">
+                  <a href="#" class="hero-btn-8 px-4 mt-3">
                     Recuerdos
                     <svg width="10" height="10" viewBox="0 0 10 10" aria-hidden="true">
                         <g fill-rule="evenodd">
@@ -106,7 +106,7 @@
                 </a>
 
 
-                  <a href="#" class="hero-btn-2 px-4 mt-3">
+                  <a href="#" class="hero-btn-8 px-4 mt-3">
                     Contacto
                     <svg width="10" height="10" viewBox="0 0 10 10" aria-hidden="true">
                         <g fill-rule="evenodd">
