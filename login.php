@@ -46,8 +46,7 @@
                 <div class="text-center justify-content-center mb-8  align-items-center">
 
                 
-                  <span class="mb-0 fw-bold lgclip" style="font-size: 35px !important; color: #1a362f; letter-spacing: 1px;">Clipmenu<span style="color: #1bd392;">.</span></span>
-        
+                <img src="assets/img/logos/logo_hbn5.webp" class="mb-4" width="150" alt="Logo Habana5">
                   </div>
 
                 

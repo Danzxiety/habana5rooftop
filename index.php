@@ -35,7 +35,7 @@
 
   
     <link rel="shortcut icon" href="assets/img/logos/logo_hbn5.webp">
-    <link rel="stylesheet" href="assets/css/uixsoftware.css">
+    <link rel="stylesheet" href="assets/css/theme.min.css">
     <link rel="stylesheet" href="assets/css/uixsoftware.css">
     <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
     <link rel="preconnect" href="https://fonts.googleapis.com">
@@ -47,14 +47,7 @@
 
 <body style="overflow-x: hidden !important;">
 
-  <style>
-    @font-face {
-    font-family: 'clip';
-    src: url('assets/fonts/edwardian_script_itc.ttf') format('truetype');
-}
 
-
-  </style>
 
 
 <style>
@@ -85,7 +78,7 @@
                   
                   <div class="mb-5" style="position: relative; z-index: 2 !important; max-width: 800px;">
 
-                    <img src="assets/img/logos/logo_hbn5.webp" class="mb-4" width="200" alt="">
+                    <img src="assets/img/logos/logo_hbn5.webp" class="mb-4" width="200" alt="Logo Habana5">
 
                     <h1 class="display-2 mt-3 text-black" style="letter-spacing: -1px;text-shadow: 0px 0px 30px white;">Una experiencia extraordinaria</h1>
                     <center>
