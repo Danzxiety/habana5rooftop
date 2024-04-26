@@ -36,7 +36,7 @@
   
     <link rel="shortcut icon" href="assets/img/logos/logo_hbn5.webp">
     <link rel="stylesheet" href="assets/css/uixsoftware.css">
-    <link rel="stylesheet" href="assets/css/uixsoftware.min.css">
+    <link rel="stylesheet" href="assets/css/uixsoftware.css">
     <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
     <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>

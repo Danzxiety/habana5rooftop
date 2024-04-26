@@ -13,7 +13,7 @@
   <title>Clipmenu | Acceso a tu cuenta</title>
 
 
-  <link rel="stylesheet" href="assets/css/uixsoftware.min.css">
+  <link rel="stylesheet" href="assets/css/uixsoftware.css">
   <link rel="stylesheet" href="assets/css/vendor.min.css">
   <link rel="stylesheet" href="assets/css/theme.min.css">
   <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
