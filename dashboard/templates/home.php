@@ -34,9 +34,9 @@ if ($result->num_rows > 0) {
         <div class="d-flex gap-2">
           <div>
 
-          <a class="hero-btn-1 border-0 rounded-pill d-flex d-md-none" style="padding: 10px 20px;" href="https://www.flaviofast.com/menu.html" target="_blank">
+          <a class="hero-btn-1 border-0 rounded-pill d-flex d-md-none" style="padding: 10px 20px;" href="https://habana5.uixsoftware.com/" target="_blank">
           <svg style="transform: rotate(180deg);" width="10" height="10" viewBox="0 0 10 10" aria-hidden="true"><g fill-rule="evenodd"><path class="line" d="M0 5h7"></path><path class="tip" d="M1 1l4 4-4 4"></path></g></svg> Men<span style="font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif !important;font-weight: 700;margin-left: -8px;">ú</span></a>
-          <a class="hero-btn-1 border-0 rounded-pill d-none d-md-flex" style="padding: 10px 20px;" href="https://www.flaviofast.com/menu.html" target="_blank">
+          <a class="hero-btn-1 border-0 rounded-pill d-none d-md-flex" style="padding: 10px 20px;" href="https://habana5.uixsoftware.com/" target="_blank">
           <svg style="transform: rotate(180deg);" width="10" height="10" viewBox="0 0 10 10" aria-hidden="true"><g fill-rule="evenodd"><path class="line" d="M0 5h7"></path><path class="tip" d="M1 1l4 4-4 4"></path></g></svg> Ver men<span style="font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif !important;font-weight: 700;margin-left: -8px;">ú</span></a></div>
           <div>
           <button type="button" style="padding: 10px 20px;" data-bs-toggle="modal" data-bs-target="#add-categorie" class="hero-btn-2 border-0 rounded-pill w-100">

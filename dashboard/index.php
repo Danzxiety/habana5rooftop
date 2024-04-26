@@ -84,7 +84,7 @@ include '../assets/php/security/verify_access_user.php';
         <script>
             const codigoQRDiv = document.getElementById('codigo-qr');
             const codigoQR = new QRCode(codigoQRDiv, {
-                text: 'https://www.flaviofast.com/menu',
+                text: 'https://habana5.uixsoftware.com/',
                 width: 128,
                 height: 128
             });
@@ -446,7 +446,7 @@ setTimeout(function() {
           <figure class="device-mobile d-block" style=" width: 100% !important; max-width: 370px !important;">
             <div class="device-mobile-frame p-2 pb-1" style="background: #e4e8ee !important;">
              
-                <iframe src="https://www.flaviofast.com/menu" style="width: 100%; min-height: 650px; border-radius: 28px;" frameborder="0"></iframe>
+                <iframe src="https://habana5.uixsoftware.com/" style="width: 100%; min-height: 650px; border-radius: 28px;" frameborder="0"></iframe>
           
             </div>
           </figure></center>
