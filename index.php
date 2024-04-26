@@ -219,8 +219,8 @@ if ($db->connect_error) {
 
     // Muestra los productos
     while ($row2 = $result2->fetch_assoc()) {
-      echo '<div class="col-12 col-md-6 col-lg-2">';
-      echo '<a class="card shadow-none border-0 card-transition h-100" style="background-color: #fff5f1;">';
+      echo '<div class="col-12 col-md-6 col-lg-3">';
+      echo '<a class="card shadow-none border-0 card-transition h-100">';
       echo '<div class="card-body p-3">';
       echo '<h3 class="h5 mb-1" style="color: #4a4f5f">' . htmlspecialchars($row2['nombre_producto']) . '</h3>';
       echo '<p class="small mb-2" style="color: #4a4f5f">' . htmlspecialchars($row2['descripcion_producto']) . '</h3>';
@@ -241,7 +241,6 @@ if ($db->connect_error) {
 
 <div class="pt-3 d-flex justify-content-center text-center" style="width: 100%">
     <span class="text-center text-dark me-3" style="font-size: 12px;">©2024</span>
-    <a class="text-dark" style="font-size: 12px;" href="#" data-bs-toggle="modal" data-bs-target="#mo-terms">Términos y condiciones de Clipmenu</a>
     <a class="text-dark d-none d-md-block ms-3" style="font-size: 12px;" href="https://api.whatsapp.com/send?phone=+5355919471&amp;text=Hola,%20vengo%20de%20Clipmenu%20...%20Me%20puede%20brindar%20ayuda?">Reportar un problema</a>
     <a class="text-dark d-none d-md-block ms-3" style="font-size: 12px;" href="https://www.uixsoftware.com/">Uixsoftware</a>
     </div>

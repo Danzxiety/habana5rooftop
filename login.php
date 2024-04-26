@@ -24,7 +24,6 @@
 <body>
   <div class="pb-3 d-flex justify-content-center text-center" style="width: 100%;bottom: 0;position:absolute;">
     <span class="text-center text-dark me-3" style="font-size: 12px;">©2024</span>
-    <a class="text-dark" style="font-size: 12px;" href="#" data-bs-toggle="modal" data-bs-target="#mo-terms">Términos y condiciones de Clipmenu</a>
     <a class="text-dark d-none d-md-block ms-3" style="font-size: 12px;" href="https://api.whatsapp.com/send?phone=+5355919471&text=Hola,%20vengo%20de%20Clipmenu%20...%20Me%20puede%20brindar%20ayuda?">Reportar un problema</a>
     <a class="text-dark d-none d-md-block ms-3" style="font-size: 12px;" href="https://www.uixsoftware.com/">Uixsoftware</a>
     </div>
@@ -54,7 +53,6 @@
 
                   
                 <div class="pb-4 mt-2">
-                  <span style="font-size: 14px;color: #343434;">¿Aún no tienes una cuenta Business? <a class="fw-semi text-dark" style="text-decoration: underline;" href="signup">Registrate</a></span>
 
                 </div>
    <!-- Form -->
