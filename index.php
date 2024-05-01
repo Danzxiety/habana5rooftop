@@ -85,7 +85,7 @@
                     <div class="mt-8 d-grid" style="max-width: 350px;">
                   
                     <a href="#" class="hero-btn-8 px-4 mt-3" data-bs-toggle="offcanvas" data-bs-target="#offcanvasBottom" aria-controls="offcanvasBottom">
-                      Nuestro carta
+                      Menú
                       <svg width="10" height="10" viewBox="0 0 10 10" aria-hidden="true">
                           <g fill-rule="evenodd">
                               <path class="line" d="M0 5h7"></path>
@@ -96,7 +96,7 @@
 
 
                   <a href="#" class="hero-btn-8 px-4 mt-3">
-                    Recuerdos
+                    Galería
                     <svg width="10" height="10" viewBox="0 0 10 10" aria-hidden="true">
                         <g fill-rule="evenodd">
                             <path class="line" d="M0 5h7"></path>
@@ -107,7 +107,18 @@
 
 
                   <a href="#" class="hero-btn-8 px-4 mt-3">
-                    Contacto
+                    Reseñas
+                    <svg width="10" height="10" viewBox="0 0 10 10" aria-hidden="true">
+                        <g fill-rule="evenodd">
+                            <path class="line" d="M0 5h7"></path>
+                            <path class="tip" d="M1 1l4 4-4 4"></path>
+                        </g>
+                    </svg>
+                </a>
+
+
+                  <a href="#" data-bs-toggle="modal" data-bs-target="#reservas" class="hero-btn-8 px-4 mt-3">
+                     Reservas
                     <svg width="10" height="10" viewBox="0 0 10 10" aria-hidden="true">
                         <g fill-rule="evenodd">
                             <path class="line" d="M0 5h7"></path>
@@ -158,20 +169,7 @@
 
   <?php
 
-  // Define los detalles de la base de datos
-$db_host = 'developers_databases';
-$db_username = 'root';
-$db_password = 'd5073421a943f035ecc4';
-$db_name = 'clipmenu-app';
-
-// Crea la conexión a la base de datos
-$db = new mysqli($db_host, $db_username, $db_password, $db_name);
-
-// Verifica la conexión
-if ($db->connect_error) {
-    error_log("Failed to connect to MySQL: " . $db->connect_error);
-    exit();
-}
+include 'assets/php/config.php';
 
 
   // Prepara la consulta SQL para obtener el id del negocio
@@ -254,22 +252,104 @@ if ($db->connect_error) {
 
 
 
-
-
-
-
-
-
-
-
-
-
-
-
 </main>
 
 
 
+
+
+
+
+
+
+
+
+<div id="reservas" class="modal fade" tabindex="-1" role="dialog" aria-labelledby="exampleModalCenterTitle" aria-hidden="true">
+  <div class="modal-dialog modal-dialog-centered" role="document">
+    <div class="modal-content">
+      <div class="modal-header pt-3">
+      <img src="assets/img/logos/logo_hbn5.webp" width="100" alt="Logo Habana5">
+        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+      </div>
+      <div class="modal-body pb-4" style="padding-top: 10px;padding-right: 20px;padding-left: 20px;">
+                    
+      <div class="px-2 py-4">
+      <h3>Haga su reservación aquí</h3>
+      </div>
+                <div class="px-2">
+                            <input type="file" class="form-control d-none" name="imagen_producto">
+
+                            <label class="form-label mb-2 h6" for="signupModalFormLoginPassword">Nombre <span class="text-danger h5">*</span></label>
+                            <input type="text" style="background-color: #f8f8f9;" class="form-control rounded-3 induo" name="reserva_nombre" required="">
+                          
+                            <div class="row mb-2 mt-3 gy-4">
+                              <div class="col-12 col-md-4">
+                                <label class="form-label mb-2 h6" for="signupModalFormLoginPassword">Día<span class="text-danger h5">*</span></label>
+                            <input type="date" style="background-color: #f8f8f9;" class="form-control rounded-3 induo" name="reserva_dia" required="">
+                            
+                              </div>
+
+                              <div class="col-12 col-md-4">
+                                <label class="form-label mb-2 h6" for="signupModalFormLoginPassword">Hora <span class="text-danger h5">*</span></label>
+                            <input type="time" style="background-color: #f8f8f9;" class="form-control rounded-3 induo"  name="reserva_hora" required="">
+                            
+                              </div>
+
+
+                              <div class="col-12 col-md-4">
+                                <label class="form-label mb-2 h6" for="signupModalFormLoginPassword">Cant. Personas <span class="text-danger h5">*</span></label>
+                            <input type="number" style="background-color: #f8f8f9;" class="form-control rounded-3 induo"  name="reserva_personas" required="">
+                            
+                              </div>
+
+                            </div>
+                             
+  <label class="form-label mb-2 mt-3 h6" for="signupModalFormLoginPassword">Observaciones <span class="text-danger h5">*</span></label>
+<textarea style="background-color: #f8f8f9;" class="form-control rounded-3 induo" name="reserva_obs" id="reviewLabelModalEg" rows="2" maxlength="100" data-hs-count-characters-options="{
+            &quot;output&quot;: &quot;#maxLengthCountCharacters&quot;
+          }"></textarea>
+<!-- End Form -->
+                                </div>
+
+                                <button type="submit" style="padding: 10px 20px;" class="hero-btn-8 reserva_wts border-0 mt-5 rounded-pill w-100">
+        Agregar producto<svg width="10" height="10" viewBox="0 0 10 10" aria-hidden="true"><g fill-rule="evenodd"><path class="line" d="M0 5h7"></path><path class="tip" d="M1 1l4 4-4 4"></path></g></svg></button>
+        
+
+                </div>
+    </div>
+  </div>
+</div>
+<!-- End Modal -->
+<script>
+  document.querySelector('.reserva_wts').addEventListener('click', function(e) {
+    e.preventDefault();
+
+    // Obtén los valores de los inputs
+    let nombre = document.querySelector('input[name="reserva_nombre"]').value;
+    let dia = document.querySelector('input[type="date"]').value;
+    let hora = document.querySelector('input[type="time"]').value;
+    let cantidadPersonas = document.querySelector('input[type="number"]').value;
+    let observaciones = document.querySelector('textarea[name="reserva_obs"]').value;
+
+    // Crea el mensaje
+    let mensaje = `🍽️ *Reservación para Restaurante* 🍽️\n\n` +
+`👤 *Nombre:* ${nombre}\n` +
+`📅 *Fecha de la Reservación:* ${dia}\n` +
+`⏰ *Hora:* ${hora}\n` +
+`👥 *Cantidad de Personas:* ${cantidadPersonas}\n` +
+`💬 *Observaciones:* ${observaciones}\n\n` +
+`¡Gracias por elegir nuestro restaurante! Estamos ansiosos por atenderte. 😊`;
+    // Codifica el mensaje para la URL
+    let mensajeCodificado = encodeURIComponent(mensaje);
+
+    // Crea la URL de WhatsApp
+    let urlWhatsApp = `https://api.whatsapp.com/send?phone=+5355919471&text=${mensajeCodificado}`;
+
+    // Abre la URL de WhatsApp en una nueva ventana
+    window.open(urlWhatsApp, '_blank');
+});
+
+</script>
 
 <script>
   (function() {

@@ -8,9 +8,9 @@ include '../assets/php/security/verify_access_user.php';
   
   <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 
-  <title>Dashboard | Clipmenu</title>
+  <title>Dashboard | Habana5</title>
 
-  <link rel="shortcut icon" href="../assets/img/logos/logo_uixsoftware_clipmenu.svg">
+  <link rel="shortcut icon" href="../assets/img/logos/logo_hbn5.webp">
   <link rel="stylesheet" href="../assets/css/uixsoftware.css">
   <link rel="stylesheet" href="../assets/css/vendor.min.css">
   <link rel="stylesheet" href="../assets/css/theme.min.css">
@@ -159,9 +159,10 @@ include '../assets/php/security/verify_access_user.php';
       <div class="navbar-vertical-footer-offset">
         <!-- Logo -->
 
-        <span class="navbar-brand fw-bold text-black mt-2" style="font-size: 28px;">
-          <span class=" navbar-brand-logo mb-0 fw-bold lgclip" style="font-size: 28px !important; color: #1a362f; letter-spacing: 1px;">Clipmenu<span style="color: #1bd392;">.</span></span>
-          <span class=" navbar-brand-logo-mini mb-0 fw-bold lgclip" style="font-size: 28px !important; color: #1a362f; letter-spacing: 1px;">C<span style="color: #1bd392;">.</span></span>
+        <span class="navbar-brand fw-bold text-black mt-3" style="font-size: 28px;">
+        <img class="navbar-brand-logo" src="../assets/img/logos/logo_hbn5.webp" class="mb-4" width="150" alt="Logo Habana5">
+        <img class="navbar-brand-logo-mini" src="../assets/img/logos/logo_hbn5.webp" class="mb-4" width="60" alt="Logo Habana5">
+          
         </span>
        
         <!-- End Logo -->
@@ -431,7 +432,9 @@ setTimeout(function() {
 
 
 
-<div class="modal fade pt-5" role="dialog" tabindex="-1" id="preview">
+
+
+<div class="modal fade pt-5" role="dialog" tabindex="-1" id="preview"  style="backdrop-filter: blur(8px);">
     <div class="modal-dialog modal-dialog-centered" role="document">
         <div class="modal-content" style="background: transparent !important;">
             
@@ -444,9 +447,9 @@ setTimeout(function() {
             <span class="badge bg-warning text-dark rounded-pill mb-3">Vista previa en tiempo real</span>
           
           <figure class="device-mobile d-block" style=" width: 100% !important; max-width: 370px !important;">
-            <div class="device-mobile-frame p-2 pb-1" style="background: #e4e8ee !important;">
+            <div class="device-mobile-frame p-2 pb-1" style="background: #e4e8ee !important;border-radius: 33px;">
              
-                <iframe src="https://habana5.uixsoftware.com/" style="width: 100%; min-height: 650px; border-radius: 28px;" frameborder="0"></iframe>
+                <iframe src="../" style="width: 100%; min-height: 680px; border-radius: 28px;" frameborder="0"></iframe>
           
             </div>
           </figure></center>
