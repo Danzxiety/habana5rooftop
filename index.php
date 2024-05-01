@@ -312,7 +312,7 @@ include 'assets/php/config.php';
                                 </div>
 
                                 <button type="submit" style="padding: 10px 20px;" class="hero-btn-8 reserva_wts border-0 mt-5 rounded-pill w-100">
-        Agregar producto<svg width="10" height="10" viewBox="0 0 10 10" aria-hidden="true"><g fill-rule="evenodd"><path class="line" d="M0 5h7"></path><path class="tip" d="M1 1l4 4-4 4"></path></g></svg></button>
+        Enviar reserva<svg width="10" height="10" viewBox="0 0 10 10" aria-hidden="true"><g fill-rule="evenodd"><path class="line" d="M0 5h7"></path><path class="tip" d="M1 1l4 4-4 4"></path></g></svg></button>
         
 
                 </div>
