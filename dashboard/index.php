@@ -23,6 +23,7 @@ include '../assets/php/security/verify_access_user.php';
 </head>
 <body class="has-navbar-vertical-aside navbar-vertical-aside-show-xl footer-offset" style="opacity: 1;">
 
+
   <script src="../assets/js/hs.theme-appearance-charts.js"></script>
 
   <script src="../assets/js/hs-navbar-vertical-aside-mini-cache.js"></script>
@@ -131,17 +132,6 @@ include '../assets/php/security/verify_access_user.php';
                   </div>
                 </div>
 
-                <div class="dropdown-divider"></div>
-
-
-                <a class="dropdown-item" href="https://htmlstream.com/preview/front-dashboard-v2.1.1/index.html#">Profile &amp; account</a>
-                <a class="dropdown-item" href="https://htmlstream.com/preview/front-dashboard-v2.1.1/index.html#">Settings</a>
-
-                
-                
-                <div class="dropdown-divider"></div>
-
-                <a class="dropdown-item" href="https://htmlstream.com/preview/front-dashboard-v2.1.1/index.html#">Sign out</a>
               </div>
             </div>
             <!-- End Account -->
@@ -194,9 +184,9 @@ include '../assets/php/security/verify_access_user.php';
 
 
             <div class="nav-item mt-2">
-              <a class="nav-link  align-items-center icmenu loop rounded-pill" href="templates/changelog.html" id="linkcards" data-placement="left">
+              <a class="nav-link  align-items-center icmenu loop rounded-pill" href="templates/reservas" id="linkcards" data-placement="left">
               <svg width="26px" height="26px" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg"><g id="SVGRepo_bgCarrier" stroke-width="0"></g><g id="SVGRepo_tracerCarrier" stroke-linecap="round" stroke-linejoin="round"></g><g id="SVGRepo_iconCarrier"> <path d="M18 8C18 11.3137 15.3137 14 12 14C8.68629 14 6 11.3137 6 8C6 4.68629 8.68629 2 12 2C15.3137 2 18 4.68629 18 8Z" fill="#1C274C"></path> <path opacity="0.7" d="M13.5798 13.7899C13.0765 13.9269 12.5468 14 12 14C9.46679 14 7.30024 12.4302 6.42018 10.2102C3.87293 10.9036 2 13.2331 2 16C2 19.3138 4.68629 22 8 22C11.3137 22 14 19.3138 14 16C14 15.2195 13.851 14.4739 13.5798 13.7899Z" fill="#1C274C"></path> <path opacity="0.4" d="M13.5798 13.7896C13.851 14.4736 14 15.2193 14 15.9998C14 17.7768 13.2275 19.3734 12 20.472C13.0615 21.4221 14.4633 21.9998 16 21.9998C19.3137 21.9998 22 19.3135 22 15.9998C22 13.2329 20.1271 10.9034 17.5798 10.21C16.8897 11.9508 15.4085 13.2918 13.5798 13.7896Z" fill="#1C274C"></path> </g></svg>
-                <span class="nav-link-title ms-2 h5 mb-0">Changelog <span style="color: #1bd392;background-color: #1bd3921f;letter-spacing: 1px;" class="badge rounded-pill ms-1">1.34.8</span></span>
+                <span class="nav-link-title ms-2 h5 mb-0">Reservas <span style="color: #1bd392;background-color: #1bd3921f;letter-spacing: 1px;" class="badge rounded-pill ms-1">1.34.8</span></span>
               </a>
             </div>
 
@@ -880,6 +870,14 @@ setTimeout(function() {
 </div>
 
 
+<div id="toast_success_deshidden" style="position: fixed; z-index:1000; top: 90px; left: 50%; transform: translate(-50%, -50%); white-space: nowrap;" class="bg-success d-none shadow-sm py-2 px-4 rounded-2 text-center">
+    <p class="text-white mb-0 h5">Producto desocultado con éxito</p>
+</div>
+
+
+<div id="toast_success_hidden" style="position: fixed; z-index:1000; top: 90px; left: 50%; transform: translate(-50%, -50%); white-space: nowrap;" class="bg-success d-none shadow-sm py-2 px-4 rounded-2 text-center">
+    <p class="text-white mb-0 h5">Producto oculto con éxito</p>
+</div>
 
 <div id="toast_success_del_prod" style="position: fixed; z-index:1000; top: 90px; left: 50%; transform: translate(-50%, -50%); white-space: nowrap;" class="bg-danger py-2 d-none px-4 rounded-2 text-center">
   <p class="text-white mb-0 h5">Producto eliminado con éxito</p>

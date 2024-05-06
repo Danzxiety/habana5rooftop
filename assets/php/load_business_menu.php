@@ -53,7 +53,7 @@
     // Muestra los productos
     while ($row2 = $result2->fetch_assoc()) {
       echo '<div class="col-12 col-md-6 col-lg-3">';
-      echo '<a class="card">';
+      echo '<a class="card" style="background: transparent;">';
       echo '<div class="card-body p-3">';
       echo '<h3 class="h5 mb-1" style="color: #4a4f5f">' . htmlspecialchars($row2['nombre_producto']) . '</h3>';
       echo '<p class="small mb-2" style="color: #4a4f5f">' . htmlspecialchars($row2['descripcion_producto']) . '</h3>';

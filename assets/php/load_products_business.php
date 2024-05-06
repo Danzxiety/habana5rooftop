@@ -16,9 +16,13 @@ $result = $stmt->get_result();
 if ($result->num_rows > 0) {
     // Recorre cada fila del resultado
     while($row = $result->fetch_assoc()) {
+      $estado_producto = $row['estado_producto'];
+
+      // Define el color de fondo dependiendo del estado del producto
+      $background_color = $estado_producto == 1 ? '#f2f3f6' : ($estado_producto == 2 ? '#ffd7d7' : '#f2f3f6');
  
         echo '<div class="col-sm-6 col-lg-2 mb-3">';
-        echo '<a class="card shadow-none border-0 card-transition h-100" style="background-color: #f2f3f6;" id="prodEditDropdown" data-id-producto="' . htmlspecialchars($row['id_producto']) . '" href="#">';
+        echo '<a class="card shadow-none border-0 card-transition h-100" style="background-color:' . $background_color . ';" id="prodEditDropdown" data-id-producto="' . htmlspecialchars($row['id_producto']) . '" href="#">';
         echo '<div class="card-body p-3">';
         echo '<div class="d-flex justify-content-left align-items-center">';
         
@@ -92,6 +96,10 @@ $stmt->close();
                                 <button type="submit" style="padding: 10px 20px;" class="hero-btn-2 aggp border-0 rounded-pill mt-2 w-100">
         Editar producto<svg width="10" height="10" viewBox="0 0 10 10" aria-hidden="true"><g fill-rule="evenodd"><path class="line" d="M0 5h7"></path><path class="tip" d="M1 1l4 4-4 4"></path></g></svg></button>
 
+        <button type="button" style="padding: 10px 20px; display: none;" id="btn-hide" class="btn-hiden btn-remove border-0 rounded-pill mt-2 w-100">Ocultar producto</button>
+        <button type="button" style="padding: 10px 20px; display: none;" id="btn-show" class="btn-deshiden btn-desh border-0 rounded-pill mt-2 w-100">Desocultar producto</button>
+
+
 
         <button type="button" style="padding: 10px 20px;" id="product_remove" class="btn-remove border-0 rounded-pill mt-2 w-100">Eliminar producto</button>
 
@@ -106,6 +114,102 @@ $stmt->close();
 
 
 <script>
+
+$(document).ready(function(){
+    $('.btn-hiden').click(function(e){
+        e.preventDefault();
+        var idProducto = $('input[name="id_producto"]').val();
+        
+        $.ajax({
+            url: '../assets/php/admin/hidden_products.php',
+            type: 'post',
+            data: { id_producto: idProducto },
+            success: function(response){
+                // Comprueba la respuesta del servidor
+                if (response.trim() === "success") {
+                    // Cierra la ventana modal
+                    $('#productModal').modal('hide');
+
+                    // Actualiza el contenido del div "menu"
+                    $.get('../assets/php/load_categories_business.php', function(data) {
+                        $('#menu').html(data);
+                    });
+
+                    $('#toast_success_hidden').fadeIn().removeClass('d-none');
+
+                    // Después de 2 segundos, oculta el div con una animación de desvanecimiento
+                    setTimeout(function() {
+                      $('#toast_success_hidden').fadeOut(function() {
+                        $(this).addClass('d-none');
+                      });
+                    }, 3000);
+
+                    // Limpia el formulario
+                    $('#edit-product')[0].reset();
+
+                } else {
+                    // Si hubo un error, muestra una alerta
+                    alert(response);
+                }
+            },
+            error: function(jqXHR, textStatus, errorThrown) {
+                console.log(textStatus, errorThrown);
+                alert('Ocurrió un error durante la solicitud: ' + textStatus);
+            }
+        });
+    });
+});
+
+
+
+
+
+$(document).ready(function(){
+    $('.btn-deshiden').click(function(e){
+        e.preventDefault();
+        var idProducto = $('input[name="id_producto"]').val();
+        
+        $.ajax({
+            url: '../assets/php/admin/deshidden_products.php',
+            type: 'post',
+            data: { id_producto: idProducto },
+            success: function(response){
+                // Comprueba la respuesta del servidor
+                if (response.trim() === "success") {
+                    // Cierra la ventana modal
+                    $('#productModal').modal('hide');
+
+                    // Actualiza el contenido del div "menu"
+                    $.get('../assets/php/load_categories_business.php', function(data) {
+                        $('#menu').html(data);
+                    });
+
+                    $('#toast_success_deshidden').fadeIn().removeClass('d-none');
+
+                    // Después de 2 segundos, oculta el div con una animación de desvanecimiento
+                    setTimeout(function() {
+                      $('#toast_success_deshidden').fadeOut(function() {
+                        $(this).addClass('d-none');
+                      });
+                    }, 3000);
+
+                    // Limpia el formulario
+                    $('#edit-product')[0].reset();
+
+                } else {
+                    // Si hubo un error, muestra una alerta
+                    alert(response);
+                }
+            },
+            error: function(jqXHR, textStatus, errorThrown) {
+                console.log(textStatus, errorThrown);
+                alert('Ocurrió un error durante la solicitud: ' + textStatus);
+            }
+        });
+    });
+});
+
+
 $(document).ready(function(){
     $('#product_remove').click(function(e){
         e.preventDefault();
@@ -169,6 +273,13 @@ $(document).ready(function(){
         $('#edit-product textarea[name="descripcion_producto"]').val(producto.descripcion_producto);
         $('#edit-product input[name="precio_producto"]').val(producto.precio_producto);
         $('#edit-product select[name="moneda_producto"]').val(producto.moneda_producto);
+        if (producto.estado_producto == 1) {
+          $('#btn-hide').show();
+          $('#btn-show').hide();
+        } else {
+          $('#btn-hide').hide();
+          $('#btn-show').show();
+        };
         $('#productModal').modal('show');
       },
       error: function(jqXHR, textStatus, errorThrown){
@@ -219,6 +330,9 @@ setTimeout(function() {
   });
 });
 </script>
+
+
+
 
 <div id="toast_success_edit" style="position: fixed; z-index:1000; top: 90px; left: 50%; transform: translate(-50%, -50%); white-space: nowrap;" class="bg-success d-none shadow-sm py-2 px-4 rounded-2 text-center">
     <p class="text-white mb-0 h5">Producto editado con éxito</p>
