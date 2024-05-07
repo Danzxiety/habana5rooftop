@@ -1,8 +1,8 @@
 <?php
 include '../../assets/php/config.php';
 
-// Realizar consulta SQL
-$sql = "SELECT account_telefono FROM reservas_tel WHERE business_id = 4";
+$business_id = $_SESSION['business_id'];
+$sql = "SELECT account_telefono FROM reservas_tel WHERE business_id = ?";
 $result = $db->query($sql);
 
 if ($result->num_rows > 0) {
