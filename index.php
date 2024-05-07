@@ -155,7 +155,7 @@
 
                   </div>
 
-                  <div class="px-2 pt-2 pb-0 pb-md-5 pb-lg-6  d-block d-md-none" style="position: relative; z-index: 2 !important; margin-top: -76px;">
+                  <div class="px-2 pt-2 pb-0 pb-md-5 pb-lg-6  d-block d-md-none" style="position: relative; z-index: 2 !important;">
 
 <img src="assets/img/logos/logo_white.png" class="mb-8 logo-welcome" width="200" alt="Logo Habana5">
 
