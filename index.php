@@ -380,7 +380,7 @@ include 'assets/php/config.php';
 <!-- End Form -->
                                 </div>
 
-                                <button type="submit" class="btn fw-semibold  icmenu w-100 btn-dark mt-4 mx-1 rounded-3">Enviar reservación</button>
+                                <button type="submit" class="btn fw-semibold .reserva_wts w-100 btn-dark mt-4 mx-1 rounded-3">Enviar reservación</button>
         
 
                 </div>
