@@ -380,7 +380,7 @@ include 'assets/php/config.php';
 <!-- End Form -->
                                 </div>
 
-                                <button type="submit" class="btn fw-semibold .reserva_wts w-100 btn-dark mt-4 mx-1 rounded-3">Enviar reservación</button>
+                                <button type="submit" class="btn fw-semibold reserva_wts w-100 btn-dark mt-4 mx-1 rounded-3">Enviar reservación</button>
         
 
                 </div>
@@ -411,7 +411,7 @@ include 'assets/php/config.php';
     let mensajeCodificado = encodeURIComponent(mensaje);
 
     // Crea la URL de WhatsApp
-    let urlWhatsApp = `https://api.whatsapp.com/send?phone=+5355919471&text=${mensajeCodificado}`;
+    let urlWhatsApp = `https://api.whatsapp.com/send?phone=+5355519987&text=${mensajeCodificado}`;
 
     // Abre la URL de WhatsApp en una nueva ventana
     window.open(urlWhatsApp, '_blank');
