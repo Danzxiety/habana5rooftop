@@ -14,20 +14,20 @@
 
   <!-- Meta tags -->
   <meta name="author" content="Uixsoftware">
-  <meta name="keywords" content="hamburguesas, habana, comida, food, flaviofast, 5taya, caseras, calidad, cuba, vedado, rapida">
+  <meta name="keywords" content="habana, comida, food, cuba, rooftop, caseras, calidad, cuba, vedado, rapida">
   <meta name="description" content="Habana5Rooftop">
   <meta property="og:description" content="¡Descubre el auténtico sabor de nuestros deliciosos platos! ¡Ven y prueba una experiencia culinaria única en nuestra ciudad!">
-  <meta property="og:url" content="https://flaviofast.com/">
-  <meta property="og:image" content="https://flaviofast.com/assets/img/logos/logo_hbn5.webp">
+  <meta property="og:url" content="https://habana5rooftop.com/">
+  <meta property="og:image" content="https://habana5rooftop.com/assets/img/logos/logo_hbn5.webp">
   <meta property="og:type" content="website">
   <meta property="og:title" content="Habana5Rooftop">
   <meta name="twitter:card" content="summary_large_image">
   <meta name="twitter:title" content="Habana5Rooftop">
   <meta name="twitter:description" content="¡Descubre el auténtico sabor de nuestros deliciosos platos! ¡Ven y prueba una experiencia culinaria única en nuestra ciudad!">
-  <meta name="twitter:image" content="https://flaviofast.com/assets/img/logos/logoux.png">
+  <meta name="twitter:image" content="https://habana5rooftop.com/assets/img/logos/logoux.png">
   <meta name="contact" content="soporte@uixsoftware.com">
   <meta name="copyright" content="Copyright (c) 2024. Uixsoftware. All Rights Reserved.">
-  <meta name="DC.title" content="FlavioFast | Hamburguesas Caseras">
+  <meta name="DC.title" content="Habana5rooftop">
   <meta name="geo.placename" content="CUBA">
   <meta name="geo.region" content="CU">
 
