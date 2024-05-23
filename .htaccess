@@ -1,7 +1,7 @@
 Header set Access-Control-Allow-Origin "*"
-ErrorDocument 404 /error/404.php
+ErrorDocument 404 /error/404.html
 Options -Indexes
-ErrorDocument 403 /error/404.php
+ErrorDocument 403 /error/404.html
 <FilesMatch "\.ini$">
 Order Allow,Deny
 Deny from all
@@ -9,7 +9,14 @@ Deny from all
 
 <IfModule mod_rewrite.c>
 RewriteEngine On
+
+# Para archivos PHP
 RewriteCond %{REQUEST_FILENAME} !-f
 RewriteCond %{REQUEST_FILENAME}.php -f
 RewriteRule ^(.*)$ $1.php [NC,L]
+
+# Para archivos HTML
+RewriteCond %{REQUEST_FILENAME} !-f
+RewriteCond %{REQUEST_FILENAME}.html -f
+RewriteRule ^(.*)$ $1.html [NC,L]
 </IfModule>
