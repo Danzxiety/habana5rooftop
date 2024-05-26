@@ -5,28 +5,32 @@
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0, shrink-to-fit=no">
     <title>Habana5</title>
-    <link rel="icon" type="image/webp" sizes="429x239" href="assets/img/logo_hbn5.webp">
-    <link rel="icon" type="image/png" sizes="1776x988" href="assets/img/logo_white.png" media="(prefers-color-scheme: dark)">
-    <link rel="icon" type="image/webp" sizes="429x239" href="assets/img/logo_hbn5.webp">
-    <link rel="icon" type="image/png" sizes="1776x988" href="assets/img/logo_white.png" media="(prefers-color-scheme: dark)">
-    <link rel="icon" type="image/webp" sizes="429x239" href="assets/img/logo_hbn5.webp">
-    <link rel="icon" type="image/png" sizes="1776x988" href="assets/img/logo_white.png">
-    <link rel="icon" type="image/webp" sizes="429x239" href="assets/img/logo_hbn5.webp">
+    <link rel="icon" type="image/jpeg" sizes="1920x1920" href="assets/img/logohabana5url.jpg">
+    <link rel="icon" type="image/jpeg" sizes="1920x1920" href="assets/img/logohabana5url.jpg" media="(prefers-color-scheme: dark)">
+    <link rel="icon" type="image/jpeg" sizes="1920x1920" href="assets/img/logohabana5url.jpg">
+    <link rel="icon" type="image/jpeg" sizes="1920x1920" href="assets/img/logohabana5url.jpg" media="(prefers-color-scheme: dark)">
+    <link rel="icon" type="image/jpeg" sizes="1920x1920" href="assets/img/logohabana5url.jpg">
+    <link rel="icon" type="image/jpeg" sizes="1920x1920" href="assets/img/logohabana5url.jpg">
+    <link rel="icon" type="image/jpeg" sizes="1920x1920" href="assets/img/logohabana5url.jpg">
     <link rel="stylesheet" href="assets/bootstrap/css/bootstrap.min.css">
     <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Montserrat:400,500,600,700&amp;display=swap">
     <link rel="stylesheet" href="assets/css/bs-theme-overrides.css">
     <link rel="stylesheet" href="assets/css/Lightbox-Gallery-baguetteBox.min.css">
+    <link rel="stylesheet" href="assets/css/Testimonials-images.css">
 </head>
 
-<body class="bg-home" style="background: linear-gradient(rgba(0,0,0,0.7), rgba(0,0,0,0.2) 99%), url(&quot;assets/img/bg_ani.jpg&quot;) center / cover no-repeat;"><script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
-    <section style="backdrop-filter: blur(5px);">
+<body class="bg-home" style="background: linear-gradient(rgba(0,0,0,0.7), rgba(0,0,0,0.46) 99%), url(&quot;assets/img/bg_ani.jpg&quot;) center / cover no-repeat;"><script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
+    <section style="backdrop-filter: blur(0px);">
         <div class="container fw-semibold d-flex justify-content-center align-items-center" style="min-height: 100vh;">
             <div class="text-center mb-5" style="margin-top: -34px;"><img class="img-fluid mb-5" src="assets/img/logo_white.png" width="200" height="111">
                 <h1 class="display-3 fw-semibold text-light d-none d-md-block" style="background: linear-gradient(180deg, #ffffff, #ffffffa3);     -webkit-background-clip: text;     -webkit-text-fill-color: rgba(0, 0, 0, 0);letter-spacing: -1px;text-shadow: 0px 0px 60px #000000cc;">CON LA HABANA A TUS PIES</h1>
                 <div class="d-block d-md-none"><span style="background: linear-gradient(180deg, #ffffff, #ffffffa3);-webkit-background-clip: text;-webkit-text-fill-color: rgba(0, 0, 0, 0);letter-spacing: -1px;text-shadow: 0px 0px 60px #000000cc;font-size: 25.28px;">CON LA HABANA</span>
                     <h1 class="display-3 fw-semibold text-center text-light" style="background: linear-gradient(180deg, #ffffff, #ffffffa3);-webkit-background-clip: text;-webkit-text-fill-color: rgba(0, 0, 0, 0);letter-spacing: -1px;text-shadow: 0px 0px 60px #000000cc;font-size: 42.28px;margin-left: -14px;">&nbsp; A TUS PIES</h1>
                 </div>
-            </div>
+                <div class="fw-normal text-light" style="font-size: 14px;">
+                    <p class="fw-lighter"><strong>Abiertos Todos los días</strong><br><strong>De 9am a 2am</strong><br><strong>Estamos en</strong><br><strong>Calle Habana No.5 e/ Peña Pobre y Avenida Bélgica. Habana Vieja.&nbsp;La&nbsp;Habana.&nbsp;Cuba</strong></p>
+                </div>
+            </div><a class="fw-semibold link-light position-absolute" href="www.uixsoftware.com" style="bottom: 15px;font-size: 14px; text-decoration:none;" target="_blank">Desarrollada por Uixsoftware</a>
         </div><a class="bg-light position-absolute" href="#" style="top: 20px;right: 30px;padding: 8px;border-radius: 50%;" data-bs-target="#offcanvas-list" data-bs-toggle="offcanvas"><svg xmlns="http://www.w3.org/2000/svg" width="1em" height="1em" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round" class="icon icon-tabler icon-tabler-align-center text-dark" style="font-size: 27px;">
                 <path stroke="none" d="M0 0h24v24H0z" fill="none"></path>
                 <line x1="4" y1="6" x2="20" y2="6"></line>
@@ -38,7 +42,7 @@
         <div class="offcanvas-body">
             <div class="text-end"><button class="btn-close" type="button" aria-label="Close" data-bs-dismiss="offcanvas" style="opacity: 1;"></button></div>
             <div class="text-center"><img class="img-fluid" src="assets/img/logo_hbn5.webp" width="150" height="84"></div>
-            <div class="text-center d-grid mt-5 px-2"><a class="fw-semibold link-dark mb-4" href="#" style="text-decoration:none" data-bs-target="#offcanvas-menu" data-bs-toggle="offcanvas">Menú</a><a class="fw-semibold link-dark mb-4" href="#" style="text-decoration:none">Reseñas</a><a class="fw-semibold link-dark mb-4" href="#" style="text-decoration:none" data-bs-target="#modal-galery" data-bs-toggle="modal">Galería</a><a class="fw-semibold link-dark mb-4" href="#" style="text-decoration:none" data-bs-target="#modal-map" data-bs-toggle="modal">Como llegar</a><button class="btn btn-outline-dark fw-semibold" type="button" style="padding: 8px 12px;" data-bs-target="#reservas" data-bs-toggle="modal">Reservar</button>
+            <div class="text-center d-grid mt-5 px-2"><a class="fw-semibold link-dark mb-4" href="#" style="text-decoration:none" data-bs-target="#offcanvas-menu" data-bs-toggle="offcanvas">Menú</a><a class="fw-semibold link-dark mb-4" href="#" style="text-decoration:none" data-bs-target="#modal-comen" data-bs-toggle="modal">Reseñas</a><a class="fw-semibold link-dark mb-4" href="#" style="text-decoration:none" data-bs-target="#modal-galery" data-bs-toggle="modal">Galería</a><a class="fw-semibold link-dark mb-4" href="#" style="text-decoration:none" data-bs-target="#modal-map" data-bs-toggle="modal">Cómo llegar?</a><button class="btn btn-outline-dark fw-semibold" type="button" style="padding: 8px 12px;" data-bs-target="#reservas" data-bs-toggle="modal">Reservar</button>
                 <div class="mt-3"><a class="me-3" href="https://www.instagram.com/habana5rooftop?igsh=MWQxNjc1aGVxMjJieQ==" target="_blank"><svg xmlns="http://www.w3.org/2000/svg" width="1em" height="1em" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round" class="icon icon-tabler icon-tabler-brand-instagram text-dark" style="font-size: 28px;">
                             <path stroke="none" d="M0 0h24v24H0z" fill="none"></path>
                             <rect x="4" y="4" width="16" height="16" rx="4"></rect>
@@ -56,8 +60,11 @@
         </div>
     </div>
     <div class="offcanvas offcanvas-bottom mx-0 mx-md-3 mx-lg-5" tabindex="-1" id="offcanvas-menu" style="border-top-left-radius: 15px;border-top-right-radius: 15px;min-height: 90%;">
-        <div class="offcanvas-body p-3 p-md-4 p-lg-5" style="background: url(&quot;assets/img/el2.png&quot;) left / contain no-repeat;margin-bottom: -24px;">
-            <div class="text-end"><button class="btn-close" type="button" aria-label="Close" data-bs-dismiss="offcanvas" style="opacity: 1;padding: 10px;box-shadow: 0px 0px 4px rgba(0,0,0,0.4);border-radius: 50%;"></button></div>
+        <div class="offcanvas-body p-3 p-md-4 p-lg-5 pt-2" style="background: url(&quot;assets/img/el2.png&quot;) left / contain no-repeat;margin-bottom: -24px;">
+            <div class="text-lg-center d-flex justify-content-between align-items-center pb-4"><img class="img-fluid mb-2" src="assets/img/vc.png" width="49" height="46"><button class="btn-close" type="button" aria-label="Close" data-bs-dismiss="offcanvas" style="opacity: 1;padding: 10px;box-shadow: 0px 0px 4px rgba(0,0,0,0.4);border-radius: 50%;"></button></div>
+            <h2 class="text-uppercase fw-bold text-center text-sm-center text-md-center text-lg-start" style="letter-spacing: 5px;">Nuestro Menú</h2>
+            <p class="text-center text-sm-center text-md-center text-lg-start" style="font-size: 14px;">Te invitamos a disfrutar de un menú, cuidadosamente diseñado para satisfacer los paladares más exquisitos. Súmate a este viaje culinario acompañado de una de las mejores vistas de la ciudad y siempre&nbsp;querrás&nbsp;volver.</p>
+            <div class="text-end"></div>
             <div id="div_menu"></div>   <script>
 
     $.get('assets/php/templates/get_menu.php', function(data) {
@@ -65,7 +72,7 @@
         });
 
       </script>
-        </div>
+        </div><button class="btn btn-dark btn-lg fw-semibold position-absolute" type="button" style="bottom: 20px;right: 20px;padding: 6px 20px;" data-bs-target="#reservas" data-bs-toggle="modal">Reservar</button>
     </div>
     <div class="modal fade" role="dialog" tabindex="-1" id="modal-galery">
         <div class="modal-dialog modal-xl modal-dialog-centered" role="document">
@@ -100,6 +107,210 @@
                     <h4 class="modal-title text-uppercase fw-bold" style="letter-spacing: 2px;">COMO LLEGAR</h4><button class="btn-close" type="button" aria-label="Close" data-bs-dismiss="modal"></button>
                 </div>
                 <div class="modal-body px-1"><iframe src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d14708.764233317183!2d-82.3557983!3d23.1432997!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x88cd79c9c159c0d1%3A0x4322960e98649fb8!2sHabana+5+Restaurant!5e0!3m2!1sen!2sus!4v1637083783246!5m2!1sen!2sus" width="100%" height="450" style="border:0; border-radius: 20px;" allowfullscreen="" loading="lazy"></iframe></div>
+            </div>
+        </div>
+    </div>
+    <div class="modal fade" role="dialog" tabindex="-1" id="modal-comen">
+        <div class="modal-dialog modal-xl" role="document">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h4 class="modal-title text-uppercase fw-bold" style="letter-spacing: 5px;">Reseñas</h4><button class="btn-close" type="button" aria-label="Close" data-bs-dismiss="modal"></button>
+                </div>
+                <div class="modal-body"><a class="btn btn-dark fw-semibold" role="button" style="font-size: 14px;" href="https://www.tripadvisor.es/Restaurant_Review-g147271-d25264904-Reviews-Habana5rooftop-Havana_Ciudad_de_la_Habana_Province_Cuba.html">Déjanos tu comentario</a>
+                    <div class="container py-4">
+                        <div class="row gy-4 row-cols-1 row-cols-sm-2 row-cols-lg-3">
+                            <div class="col">
+                                <div>
+                                    <p class="fw-normal border rounded border-0 p-4" style="font-size: 14px;box-shadow: 0px 0px 7px rgba(33,37,41,0.24);">Linda azotea para cenar mientras ves el atardecer. Platos originales y excelentes cocteles. Pedimos los tacos (ambos), pescado ahumado y las croquetas. Las porciones son pequeñas así no vayas si tienes la intención de saciarte o llenarte. Es un sitio que va más allá de la comida.</p>
+                                    <div class="d-flex">
+                                        <div>
+                                            <p class="fw-semibold mb-0">Juanjo Santana</p>
+                                        </div>
+                                    </div>
+                                    <div><svg xmlns="http://www.w3.org/2000/svg" width="1em" height="1em" fill="currentColor" viewBox="0 0 16 16" class="bi bi-star-fill text-warning me-1" style="font-size: 18px;">
+                                            <path d="M3.612 15.443c-.386.198-.824-.149-.746-.592l.83-4.73L.173 6.765c-.329-.314-.158-.888.283-.95l4.898-.696L7.538.792c.197-.39.73-.39.927 0l2.184 4.327 4.898.696c.441.062.612.636.282.95l-3.522 3.356.83 4.73c.078.443-.36.79-.746.592L8 13.187l-4.389 2.256z"></path>
+                                        </svg><svg xmlns="http://www.w3.org/2000/svg" width="1em" height="1em" fill="currentColor" viewBox="0 0 16 16" class="bi bi-star-fill text-warning me-1" style="font-size: 18px;">
+                                            <path d="M3.612 15.443c-.386.198-.824-.149-.746-.592l.83-4.73L.173 6.765c-.329-.314-.158-.888.283-.95l4.898-.696L7.538.792c.197-.39.73-.39.927 0l2.184 4.327 4.898.696c.441.062.612.636.282.95l-3.522 3.356.83 4.73c.078.443-.36.79-.746.592L8 13.187l-4.389 2.256z"></path>
+                                        </svg><svg xmlns="http://www.w3.org/2000/svg" width="1em" height="1em" fill="currentColor" viewBox="0 0 16 16" class="bi bi-star-fill text-warning me-1" style="font-size: 18px;">
+                                            <path d="M3.612 15.443c-.386.198-.824-.149-.746-.592l.83-4.73L.173 6.765c-.329-.314-.158-.888.283-.95l4.898-.696L7.538.792c.197-.39.73-.39.927 0l2.184 4.327 4.898.696c.441.062.612.636.282.95l-3.522 3.356.83 4.73c.078.443-.36.79-.746.592L8 13.187l-4.389 2.256z"></path>
+                                        </svg><svg xmlns="http://www.w3.org/2000/svg" width="1em" height="1em" fill="currentColor" viewBox="0 0 16 16" class="bi bi-star-fill text-warning me-1" style="font-size: 18px;">
+                                            <path d="M3.612 15.443c-.386.198-.824-.149-.746-.592l.83-4.73L.173 6.765c-.329-.314-.158-.888.283-.95l4.898-.696L7.538.792c.197-.39.73-.39.927 0l2.184 4.327 4.898.696c.441.062.612.636.282.95l-3.522 3.356.83 4.73c.078.443-.36.79-.746.592L8 13.187l-4.389 2.256z"></path>
+                                        </svg><svg xmlns="http://www.w3.org/2000/svg" width="1em" height="1em" fill="currentColor" viewBox="0 0 16 16" class="bi bi-star-fill text-warning me-1" style="font-size: 18px;">
+                                            <path d="M3.612 15.443c-.386.198-.824-.149-.746-.592l.83-4.73L.173 6.765c-.329-.314-.158-.888.283-.95l4.898-.696L7.538.792c.197-.39.73-.39.927 0l2.184 4.327 4.898.696c.441.062.612.636.282.95l-3.522 3.356.83 4.73c.078.443-.36.79-.746.592L8 13.187l-4.389 2.256z"></path>
+                                        </svg></div>
+                                </div>
+                            </div>
+                            <div class="col">
+                                <div>
+                                    <p class="fw-normal border rounded border-0 p-4" style="font-size: 14px;box-shadow: 0px 0px 7px rgba(33,37,41,0.24);">Linda azotea para cenar mientras ves el atardecer. Platos originales y excelentes cocteles. Pedimos los tacos (ambos), pescado ahumado y las croquetas. Las porciones son pequeñas así no vayas si tienes la intención de saciarte o llenarte. Es un sitio que va más allá de la comida.</p>
+                                    <div class="d-flex">
+                                        <div>
+                                            <p class="fw-semibold mb-0">Juanjo Santana</p>
+                                        </div>
+                                    </div>
+                                    <div><svg xmlns="http://www.w3.org/2000/svg" width="1em" height="1em" fill="currentColor" viewBox="0 0 16 16" class="bi bi-star-fill text-warning me-1" style="font-size: 18px;">
+                                            <path d="M3.612 15.443c-.386.198-.824-.149-.746-.592l.83-4.73L.173 6.765c-.329-.314-.158-.888.283-.95l4.898-.696L7.538.792c.197-.39.73-.39.927 0l2.184 4.327 4.898.696c.441.062.612.636.282.95l-3.522 3.356.83 4.73c.078.443-.36.79-.746.592L8 13.187l-4.389 2.256z"></path>
+                                        </svg><svg xmlns="http://www.w3.org/2000/svg" width="1em" height="1em" fill="currentColor" viewBox="0 0 16 16" class="bi bi-star-fill text-warning me-1" style="font-size: 18px;">
+                                            <path d="M3.612 15.443c-.386.198-.824-.149-.746-.592l.83-4.73L.173 6.765c-.329-.314-.158-.888.283-.95l4.898-.696L7.538.792c.197-.39.73-.39.927 0l2.184 4.327 4.898.696c.441.062.612.636.282.95l-3.522 3.356.83 4.73c.078.443-.36.79-.746.592L8 13.187l-4.389 2.256z"></path>
+                                        </svg><svg xmlns="http://www.w3.org/2000/svg" width="1em" height="1em" fill="currentColor" viewBox="0 0 16 16" class="bi bi-star-fill text-warning me-1" style="font-size: 18px;">
+                                            <path d="M3.612 15.443c-.386.198-.824-.149-.746-.592l.83-4.73L.173 6.765c-.329-.314-.158-.888.283-.95l4.898-.696L7.538.792c.197-.39.73-.39.927 0l2.184 4.327 4.898.696c.441.062.612.636.282.95l-3.522 3.356.83 4.73c.078.443-.36.79-.746.592L8 13.187l-4.389 2.256z"></path>
+                                        </svg><svg xmlns="http://www.w3.org/2000/svg" width="1em" height="1em" fill="currentColor" viewBox="0 0 16 16" class="bi bi-star-fill text-warning me-1" style="font-size: 18px;">
+                                            <path d="M3.612 15.443c-.386.198-.824-.149-.746-.592l.83-4.73L.173 6.765c-.329-.314-.158-.888.283-.95l4.898-.696L7.538.792c.197-.39.73-.39.927 0l2.184 4.327 4.898.696c.441.062.612.636.282.95l-3.522 3.356.83 4.73c.078.443-.36.79-.746.592L8 13.187l-4.389 2.256z"></path>
+                                        </svg><svg xmlns="http://www.w3.org/2000/svg" width="1em" height="1em" fill="currentColor" viewBox="0 0 16 16" class="bi bi-star-fill text-warning me-1" style="font-size: 18px;">
+                                            <path d="M3.612 15.443c-.386.198-.824-.149-.746-.592l.83-4.73L.173 6.765c-.329-.314-.158-.888.283-.95l4.898-.696L7.538.792c.197-.39.73-.39.927 0l2.184 4.327 4.898.696c.441.062.612.636.282.95l-3.522 3.356.83 4.73c.078.443-.36.79-.746.592L8 13.187l-4.389 2.256z"></path>
+                                        </svg></div>
+                                </div>
+                            </div>
+                            <div class="col">
+                                <div>
+                                    <p class="fw-normal border rounded border-0 p-4" style="font-size: 14px;box-shadow: 0px 0px 7px rgba(33,37,41,0.24);">El mejor lugar que he conocido hasta ahora en la Habana. Nos lo recomendaron y fuimos a cenar. Tienes que subir muchas escaleras pero las vistas y el ambiente merece la pena. Primero pedimos Daiquirí y piña colada, todos buenísimos, remarco el detalle de la cañita de metal, maravilloso.</p>
+                                    <div class="d-flex">
+                                        <div>
+                                            <p class="fw-semibold mb-0">Marta López</p>
+                                        </div>
+                                    </div>
+                                    <div><svg xmlns="http://www.w3.org/2000/svg" width="1em" height="1em" fill="currentColor" viewBox="0 0 16 16" class="bi bi-star-fill text-warning me-1" style="font-size: 18px;">
+                                            <path d="M3.612 15.443c-.386.198-.824-.149-.746-.592l.83-4.73L.173 6.765c-.329-.314-.158-.888.283-.95l4.898-.696L7.538.792c.197-.39.73-.39.927 0l2.184 4.327 4.898.696c.441.062.612.636.282.95l-3.522 3.356.83 4.73c.078.443-.36.79-.746.592L8 13.187l-4.389 2.256z"></path>
+                                        </svg><svg xmlns="http://www.w3.org/2000/svg" width="1em" height="1em" fill="currentColor" viewBox="0 0 16 16" class="bi bi-star-fill text-warning me-1" style="font-size: 18px;">
+                                            <path d="M3.612 15.443c-.386.198-.824-.149-.746-.592l.83-4.73L.173 6.765c-.329-.314-.158-.888.283-.95l4.898-.696L7.538.792c.197-.39.73-.39.927 0l2.184 4.327 4.898.696c.441.062.612.636.282.95l-3.522 3.356.83 4.73c.078.443-.36.79-.746.592L8 13.187l-4.389 2.256z"></path>
+                                        </svg><svg xmlns="http://www.w3.org/2000/svg" width="1em" height="1em" fill="currentColor" viewBox="0 0 16 16" class="bi bi-star-fill text-warning me-1" style="font-size: 18px;">
+                                            <path d="M3.612 15.443c-.386.198-.824-.149-.746-.592l.83-4.73L.173 6.765c-.329-.314-.158-.888.283-.95l4.898-.696L7.538.792c.197-.39.73-.39.927 0l2.184 4.327 4.898.696c.441.062.612.636.282.95l-3.522 3.356.83 4.73c.078.443-.36.79-.746.592L8 13.187l-4.389 2.256z"></path>
+                                        </svg><svg xmlns="http://www.w3.org/2000/svg" width="1em" height="1em" fill="currentColor" viewBox="0 0 16 16" class="bi bi-star-fill text-warning me-1" style="font-size: 18px;">
+                                            <path d="M3.612 15.443c-.386.198-.824-.149-.746-.592l.83-4.73L.173 6.765c-.329-.314-.158-.888.283-.95l4.898-.696L7.538.792c.197-.39.73-.39.927 0l2.184 4.327 4.898.696c.441.062.612.636.282.95l-3.522 3.356.83 4.73c.078.443-.36.79-.746.592L8 13.187l-4.389 2.256z"></path>
+                                        </svg><svg xmlns="http://www.w3.org/2000/svg" width="1em" height="1em" fill="currentColor" viewBox="0 0 16 16" class="bi bi-star-fill text-warning me-1" style="font-size: 18px;">
+                                            <path d="M3.612 15.443c-.386.198-.824-.149-.746-.592l.83-4.73L.173 6.765c-.329-.314-.158-.888.283-.95l4.898-.696L7.538.792c.197-.39.73-.39.927 0l2.184 4.327 4.898.696c.441.062.612.636.282.95l-3.522 3.356.83 4.73c.078.443-.36.79-.746.592L8 13.187l-4.389 2.256z"></path>
+                                        </svg></div>
+                                </div>
+                            </div>
+                            <div class="col">
+                                <div>
+                                    <p class="fw-normal border rounded border-0 p-4" style="font-size: 14px;box-shadow: 0px 0px 7px rgba(33,37,41,0.24);">Es un restaurante ubicado cerca al malecón en la Havana, el atardecer desde ahí se ve espectacular y tiene una terraza muy agradable.<br>Es para ir a probar cócteles refrescantes y tardear, los platos fuertes son muy ricos y mi favorito fue el ceviche. Sin duda volvería, el servicio es espectacular.</p>
+                                    <div class="d-flex">
+                                        <div>
+                                            <p class="fw-semibold mb-0"><strong>Yuliany Herrera Ruiz</strong></p>
+                                        </div>
+                                    </div>
+                                    <div><svg xmlns="http://www.w3.org/2000/svg" width="1em" height="1em" fill="currentColor" viewBox="0 0 16 16" class="bi bi-star-fill text-warning me-1" style="font-size: 18px;">
+                                            <path d="M3.612 15.443c-.386.198-.824-.149-.746-.592l.83-4.73L.173 6.765c-.329-.314-.158-.888.283-.95l4.898-.696L7.538.792c.197-.39.73-.39.927 0l2.184 4.327 4.898.696c.441.062.612.636.282.95l-3.522 3.356.83 4.73c.078.443-.36.79-.746.592L8 13.187l-4.389 2.256z"></path>
+                                        </svg><svg xmlns="http://www.w3.org/2000/svg" width="1em" height="1em" fill="currentColor" viewBox="0 0 16 16" class="bi bi-star-fill text-warning me-1" style="font-size: 18px;">
+                                            <path d="M3.612 15.443c-.386.198-.824-.149-.746-.592l.83-4.73L.173 6.765c-.329-.314-.158-.888.283-.95l4.898-.696L7.538.792c.197-.39.73-.39.927 0l2.184 4.327 4.898.696c.441.062.612.636.282.95l-3.522 3.356.83 4.73c.078.443-.36.79-.746.592L8 13.187l-4.389 2.256z"></path>
+                                        </svg><svg xmlns="http://www.w3.org/2000/svg" width="1em" height="1em" fill="currentColor" viewBox="0 0 16 16" class="bi bi-star-fill text-warning me-1" style="font-size: 18px;">
+                                            <path d="M3.612 15.443c-.386.198-.824-.149-.746-.592l.83-4.73L.173 6.765c-.329-.314-.158-.888.283-.95l4.898-.696L7.538.792c.197-.39.73-.39.927 0l2.184 4.327 4.898.696c.441.062.612.636.282.95l-3.522 3.356.83 4.73c.078.443-.36.79-.746.592L8 13.187l-4.389 2.256z"></path>
+                                        </svg><svg xmlns="http://www.w3.org/2000/svg" width="1em" height="1em" fill="currentColor" viewBox="0 0 16 16" class="bi bi-star-fill text-warning me-1" style="font-size: 18px;">
+                                            <path d="M3.612 15.443c-.386.198-.824-.149-.746-.592l.83-4.73L.173 6.765c-.329-.314-.158-.888.283-.95l4.898-.696L7.538.792c.197-.39.73-.39.927 0l2.184 4.327 4.898.696c.441.062.612.636.282.95l-3.522 3.356.83 4.73c.078.443-.36.79-.746.592L8 13.187l-4.389 2.256z"></path>
+                                        </svg><svg xmlns="http://www.w3.org/2000/svg" width="1em" height="1em" fill="currentColor" viewBox="0 0 16 16" class="bi bi-star-fill text-warning me-1" style="font-size: 18px;">
+                                            <path d="M3.612 15.443c-.386.198-.824-.149-.746-.592l.83-4.73L.173 6.765c-.329-.314-.158-.888.283-.95l4.898-.696L7.538.792c.197-.39.73-.39.927 0l2.184 4.327 4.898.696c.441.062.612.636.282.95l-3.522 3.356.83 4.73c.078.443-.36.79-.746.592L8 13.187l-4.389 2.256z"></path>
+                                        </svg></div>
+                                </div>
+                            </div>
+                            <div class="col">
+                                <div>
+                                    <p class="fw-normal border rounded border-0 p-4" style="font-size: 14px;box-shadow: 0px 0px 7px rgba(33,37,41,0.24);">La ubicación y la vista es inmejorable. La atención del personal es excelente; muy buena actitud y trato, los precios muy accesibles y la comida deliciosa. El arroz cubano que venden es el mejor que he probado en la isla. Los cocteles son muy ricos y la música y la atmósfera del ambiente es muy buena. 100% recomendado.</p>
+                                    <div class="d-flex">
+                                        <div>
+                                            <p class="fw-semibold mb-0"><strong>Steve Sttivend</strong></p>
+                                        </div>
+                                    </div>
+                                    <div><svg xmlns="http://www.w3.org/2000/svg" width="1em" height="1em" fill="currentColor" viewBox="0 0 16 16" class="bi bi-star-fill text-warning me-1" style="font-size: 18px;">
+                                            <path d="M3.612 15.443c-.386.198-.824-.149-.746-.592l.83-4.73L.173 6.765c-.329-.314-.158-.888.283-.95l4.898-.696L7.538.792c.197-.39.73-.39.927 0l2.184 4.327 4.898.696c.441.062.612.636.282.95l-3.522 3.356.83 4.73c.078.443-.36.79-.746.592L8 13.187l-4.389 2.256z"></path>
+                                        </svg><svg xmlns="http://www.w3.org/2000/svg" width="1em" height="1em" fill="currentColor" viewBox="0 0 16 16" class="bi bi-star-fill text-warning me-1" style="font-size: 18px;">
+                                            <path d="M3.612 15.443c-.386.198-.824-.149-.746-.592l.83-4.73L.173 6.765c-.329-.314-.158-.888.283-.95l4.898-.696L7.538.792c.197-.39.73-.39.927 0l2.184 4.327 4.898.696c.441.062.612.636.282.95l-3.522 3.356.83 4.73c.078.443-.36.79-.746.592L8 13.187l-4.389 2.256z"></path>
+                                        </svg><svg xmlns="http://www.w3.org/2000/svg" width="1em" height="1em" fill="currentColor" viewBox="0 0 16 16" class="bi bi-star-fill text-warning me-1" style="font-size: 18px;">
+                                            <path d="M3.612 15.443c-.386.198-.824-.149-.746-.592l.83-4.73L.173 6.765c-.329-.314-.158-.888.283-.95l4.898-.696L7.538.792c.197-.39.73-.39.927 0l2.184 4.327 4.898.696c.441.062.612.636.282.95l-3.522 3.356.83 4.73c.078.443-.36.79-.746.592L8 13.187l-4.389 2.256z"></path>
+                                        </svg><svg xmlns="http://www.w3.org/2000/svg" width="1em" height="1em" fill="currentColor" viewBox="0 0 16 16" class="bi bi-star-fill text-warning me-1" style="font-size: 18px;">
+                                            <path d="M3.612 15.443c-.386.198-.824-.149-.746-.592l.83-4.73L.173 6.765c-.329-.314-.158-.888.283-.95l4.898-.696L7.538.792c.197-.39.73-.39.927 0l2.184 4.327 4.898.696c.441.062.612.636.282.95l-3.522 3.356.83 4.73c.078.443-.36.79-.746.592L8 13.187l-4.389 2.256z"></path>
+                                        </svg><svg xmlns="http://www.w3.org/2000/svg" width="1em" height="1em" fill="currentColor" viewBox="0 0 16 16" class="bi bi-star-fill text-warning me-1" style="font-size: 18px;">
+                                            <path d="M3.612 15.443c-.386.198-.824-.149-.746-.592l.83-4.73L.173 6.765c-.329-.314-.158-.888.283-.95l4.898-.696L7.538.792c.197-.39.73-.39.927 0l2.184 4.327 4.898.696c.441.062.612.636.282.95l-3.522 3.356.83 4.73c.078.443-.36.79-.746.592L8 13.187l-4.389 2.256z"></path>
+                                        </svg></div>
+                                </div>
+                            </div>
+                            <div class="col">
+                                <div>
+                                    <p class="fw-normal border rounded border-0 p-4" style="font-size: 14px;box-shadow: 0px 0px 7px rgba(33,37,41,0.24);">Excelente cocina, precios justos y excelente ubicación!!! ¡Realmente saben cómo preparar cócteles!<br><br>Alemán: excelente cocina, precios justos y excelente ubicación!!!<br><br>¡Realmente saben cómo preparar cócteles!</p>
+                                    <div class="d-flex">
+                                        <div>
+                                            <p class="fw-semibold mb-0"><strong>Taco Dude</strong></p>
+                                        </div>
+                                    </div>
+                                    <div><svg xmlns="http://www.w3.org/2000/svg" width="1em" height="1em" fill="currentColor" viewBox="0 0 16 16" class="bi bi-star-fill text-warning me-1" style="font-size: 18px;">
+                                            <path d="M3.612 15.443c-.386.198-.824-.149-.746-.592l.83-4.73L.173 6.765c-.329-.314-.158-.888.283-.95l4.898-.696L7.538.792c.197-.39.73-.39.927 0l2.184 4.327 4.898.696c.441.062.612.636.282.95l-3.522 3.356.83 4.73c.078.443-.36.79-.746.592L8 13.187l-4.389 2.256z"></path>
+                                        </svg><svg xmlns="http://www.w3.org/2000/svg" width="1em" height="1em" fill="currentColor" viewBox="0 0 16 16" class="bi bi-star-fill text-warning me-1" style="font-size: 18px;">
+                                            <path d="M3.612 15.443c-.386.198-.824-.149-.746-.592l.83-4.73L.173 6.765c-.329-.314-.158-.888.283-.95l4.898-.696L7.538.792c.197-.39.73-.39.927 0l2.184 4.327 4.898.696c.441.062.612.636.282.95l-3.522 3.356.83 4.73c.078.443-.36.79-.746.592L8 13.187l-4.389 2.256z"></path>
+                                        </svg><svg xmlns="http://www.w3.org/2000/svg" width="1em" height="1em" fill="currentColor" viewBox="0 0 16 16" class="bi bi-star-fill text-warning me-1" style="font-size: 18px;">
+                                            <path d="M3.612 15.443c-.386.198-.824-.149-.746-.592l.83-4.73L.173 6.765c-.329-.314-.158-.888.283-.95l4.898-.696L7.538.792c.197-.39.73-.39.927 0l2.184 4.327 4.898.696c.441.062.612.636.282.95l-3.522 3.356.83 4.73c.078.443-.36.79-.746.592L8 13.187l-4.389 2.256z"></path>
+                                        </svg><svg xmlns="http://www.w3.org/2000/svg" width="1em" height="1em" fill="currentColor" viewBox="0 0 16 16" class="bi bi-star-fill text-warning me-1" style="font-size: 18px;">
+                                            <path d="M3.612 15.443c-.386.198-.824-.149-.746-.592l.83-4.73L.173 6.765c-.329-.314-.158-.888.283-.95l4.898-.696L7.538.792c.197-.39.73-.39.927 0l2.184 4.327 4.898.696c.441.062.612.636.282.95l-3.522 3.356.83 4.73c.078.443-.36.79-.746.592L8 13.187l-4.389 2.256z"></path>
+                                        </svg><svg xmlns="http://www.w3.org/2000/svg" width="1em" height="1em" fill="currentColor" viewBox="0 0 16 16" class="bi bi-star-fill text-warning me-1" style="font-size: 18px;">
+                                            <path d="M3.612 15.443c-.386.198-.824-.149-.746-.592l.83-4.73L.173 6.765c-.329-.314-.158-.888.283-.95l4.898-.696L7.538.792c.197-.39.73-.39.927 0l2.184 4.327 4.898.696c.441.062.612.636.282.95l-3.522 3.356.83 4.73c.078.443-.36.79-.746.592L8 13.187l-4.389 2.256z"></path>
+                                        </svg></div>
+                                </div>
+                            </div>
+                            <div class="col">
+                                <div>
+                                    <p class="fw-normal border rounded border-0 p-4" style="font-size: 14px;box-shadow: 0px 0px 7px rgba(33,37,41,0.24);">Vista privilegiada, servicio increíble y una carta de primera. Un lugar al que sin duda volvería. La atención del personal muy amable, buena música y ambiente.</p>
+                                    <div class="d-flex">
+                                        <div>
+                                            <p class="fw-semibold mb-0"><strong>S Fernández</strong></p>
+                                        </div>
+                                    </div>
+                                    <div><svg xmlns="http://www.w3.org/2000/svg" width="1em" height="1em" fill="currentColor" viewBox="0 0 16 16" class="bi bi-star-fill text-warning me-1" style="font-size: 18px;">
+                                            <path d="M3.612 15.443c-.386.198-.824-.149-.746-.592l.83-4.73L.173 6.765c-.329-.314-.158-.888.283-.95l4.898-.696L7.538.792c.197-.39.73-.39.927 0l2.184 4.327 4.898.696c.441.062.612.636.282.95l-3.522 3.356.83 4.73c.078.443-.36.79-.746.592L8 13.187l-4.389 2.256z"></path>
+                                        </svg><svg xmlns="http://www.w3.org/2000/svg" width="1em" height="1em" fill="currentColor" viewBox="0 0 16 16" class="bi bi-star-fill text-warning me-1" style="font-size: 18px;">
+                                            <path d="M3.612 15.443c-.386.198-.824-.149-.746-.592l.83-4.73L.173 6.765c-.329-.314-.158-.888.283-.95l4.898-.696L7.538.792c.197-.39.73-.39.927 0l2.184 4.327 4.898.696c.441.062.612.636.282.95l-3.522 3.356.83 4.73c.078.443-.36.79-.746.592L8 13.187l-4.389 2.256z"></path>
+                                        </svg><svg xmlns="http://www.w3.org/2000/svg" width="1em" height="1em" fill="currentColor" viewBox="0 0 16 16" class="bi bi-star-fill text-warning me-1" style="font-size: 18px;">
+                                            <path d="M3.612 15.443c-.386.198-.824-.149-.746-.592l.83-4.73L.173 6.765c-.329-.314-.158-.888.283-.95l4.898-.696L7.538.792c.197-.39.73-.39.927 0l2.184 4.327 4.898.696c.441.062.612.636.282.95l-3.522 3.356.83 4.73c.078.443-.36.79-.746.592L8 13.187l-4.389 2.256z"></path>
+                                        </svg><svg xmlns="http://www.w3.org/2000/svg" width="1em" height="1em" fill="currentColor" viewBox="0 0 16 16" class="bi bi-star-fill text-warning me-1" style="font-size: 18px;">
+                                            <path d="M3.612 15.443c-.386.198-.824-.149-.746-.592l.83-4.73L.173 6.765c-.329-.314-.158-.888.283-.95l4.898-.696L7.538.792c.197-.39.73-.39.927 0l2.184 4.327 4.898.696c.441.062.612.636.282.95l-3.522 3.356.83 4.73c.078.443-.36.79-.746.592L8 13.187l-4.389 2.256z"></path>
+                                        </svg><svg xmlns="http://www.w3.org/2000/svg" width="1em" height="1em" fill="currentColor" viewBox="0 0 16 16" class="bi bi-star-fill text-warning me-1" style="font-size: 18px;">
+                                            <path d="M3.612 15.443c-.386.198-.824-.149-.746-.592l.83-4.73L.173 6.765c-.329-.314-.158-.888.283-.95l4.898-.696L7.538.792c.197-.39.73-.39.927 0l2.184 4.327 4.898.696c.441.062.612.636.282.95l-3.522 3.356.83 4.73c.078.443-.36.79-.746.592L8 13.187l-4.389 2.256z"></path>
+                                        </svg></div>
+                                </div>
+                            </div>
+                            <div class="col">
+                                <div>
+                                    <p class="fw-normal border rounded border-0 p-4" style="font-size: 14px;box-shadow: 0px 0px 7px rgba(33,37,41,0.24);">Único lugar que puedes disfrutar al estilo occidental si te hartaste de las malas maneras de los cubanos. Ambiente fenomenal con muy buenos djs y una cocina excelente. Gracias.</p>
+                                    <div class="d-flex">
+                                        <div>
+                                            <p class="fw-semibold mb-0"><strong>FJ Arana</strong></p>
+                                        </div>
+                                    </div>
+                                    <div><svg xmlns="http://www.w3.org/2000/svg" width="1em" height="1em" fill="currentColor" viewBox="0 0 16 16" class="bi bi-star-fill text-warning me-1" style="font-size: 18px;">
+                                            <path d="M3.612 15.443c-.386.198-.824-.149-.746-.592l.83-4.73L.173 6.765c-.329-.314-.158-.888.283-.95l4.898-.696L7.538.792c.197-.39.73-.39.927 0l2.184 4.327 4.898.696c.441.062.612.636.282.95l-3.522 3.356.83 4.73c.078.443-.36.79-.746.592L8 13.187l-4.389 2.256z"></path>
+                                        </svg><svg xmlns="http://www.w3.org/2000/svg" width="1em" height="1em" fill="currentColor" viewBox="0 0 16 16" class="bi bi-star-fill text-warning me-1" style="font-size: 18px;">
+                                            <path d="M3.612 15.443c-.386.198-.824-.149-.746-.592l.83-4.73L.173 6.765c-.329-.314-.158-.888.283-.95l4.898-.696L7.538.792c.197-.39.73-.39.927 0l2.184 4.327 4.898.696c.441.062.612.636.282.95l-3.522 3.356.83 4.73c.078.443-.36.79-.746.592L8 13.187l-4.389 2.256z"></path>
+                                        </svg><svg xmlns="http://www.w3.org/2000/svg" width="1em" height="1em" fill="currentColor" viewBox="0 0 16 16" class="bi bi-star-fill text-warning me-1" style="font-size: 18px;">
+                                            <path d="M3.612 15.443c-.386.198-.824-.149-.746-.592l.83-4.73L.173 6.765c-.329-.314-.158-.888.283-.95l4.898-.696L7.538.792c.197-.39.73-.39.927 0l2.184 4.327 4.898.696c.441.062.612.636.282.95l-3.522 3.356.83 4.73c.078.443-.36.79-.746.592L8 13.187l-4.389 2.256z"></path>
+                                        </svg><svg xmlns="http://www.w3.org/2000/svg" width="1em" height="1em" fill="currentColor" viewBox="0 0 16 16" class="bi bi-star-fill text-warning me-1" style="font-size: 18px;">
+                                            <path d="M3.612 15.443c-.386.198-.824-.149-.746-.592l.83-4.73L.173 6.765c-.329-.314-.158-.888.283-.95l4.898-.696L7.538.792c.197-.39.73-.39.927 0l2.184 4.327 4.898.696c.441.062.612.636.282.95l-3.522 3.356.83 4.73c.078.443-.36.79-.746.592L8 13.187l-4.389 2.256z"></path>
+                                        </svg><svg xmlns="http://www.w3.org/2000/svg" width="1em" height="1em" fill="currentColor" viewBox="0 0 16 16" class="bi bi-star-fill text-warning me-1" style="font-size: 18px;">
+                                            <path d="M3.612 15.443c-.386.198-.824-.149-.746-.592l.83-4.73L.173 6.765c-.329-.314-.158-.888.283-.95l4.898-.696L7.538.792c.197-.39.73-.39.927 0l2.184 4.327 4.898.696c.441.062.612.636.282.95l-3.522 3.356.83 4.73c.078.443-.36.79-.746.592L8 13.187l-4.389 2.256z"></path>
+                                        </svg></div>
+                                </div>
+                            </div>
+                            <div class="col">
+                                <div>
+                                    <p class="fw-normal border rounded border-0 p-4" style="font-size: 14px;box-shadow: 0px 0px 7px rgba(33,37,41,0.24);">Excelentes tragos y comida acompañados de una vista espectacular. No dejen de pedir de entrada la tipica ropa vieja cubana y de principal el arroz campesino. Nos voló la cabeza.</p>
+                                    <div class="d-flex">
+                                        <div>
+                                            <p class="fw-semibold mb-0"><strong>Que comemos BA</strong></p>
+                                        </div>
+                                    </div>
+                                    <div><svg xmlns="http://www.w3.org/2000/svg" width="1em" height="1em" fill="currentColor" viewBox="0 0 16 16" class="bi bi-star-fill text-warning me-1" style="font-size: 18px;">
+                                            <path d="M3.612 15.443c-.386.198-.824-.149-.746-.592l.83-4.73L.173 6.765c-.329-.314-.158-.888.283-.95l4.898-.696L7.538.792c.197-.39.73-.39.927 0l2.184 4.327 4.898.696c.441.062.612.636.282.95l-3.522 3.356.83 4.73c.078.443-.36.79-.746.592L8 13.187l-4.389 2.256z"></path>
+                                        </svg><svg xmlns="http://www.w3.org/2000/svg" width="1em" height="1em" fill="currentColor" viewBox="0 0 16 16" class="bi bi-star-fill text-warning me-1" style="font-size: 18px;">
+                                            <path d="M3.612 15.443c-.386.198-.824-.149-.746-.592l.83-4.73L.173 6.765c-.329-.314-.158-.888.283-.95l4.898-.696L7.538.792c.197-.39.73-.39.927 0l2.184 4.327 4.898.696c.441.062.612.636.282.95l-3.522 3.356.83 4.73c.078.443-.36.79-.746.592L8 13.187l-4.389 2.256z"></path>
+                                        </svg><svg xmlns="http://www.w3.org/2000/svg" width="1em" height="1em" fill="currentColor" viewBox="0 0 16 16" class="bi bi-star-fill text-warning me-1" style="font-size: 18px;">
+                                            <path d="M3.612 15.443c-.386.198-.824-.149-.746-.592l.83-4.73L.173 6.765c-.329-.314-.158-.888.283-.95l4.898-.696L7.538.792c.197-.39.73-.39.927 0l2.184 4.327 4.898.696c.441.062.612.636.282.95l-3.522 3.356.83 4.73c.078.443-.36.79-.746.592L8 13.187l-4.389 2.256z"></path>
+                                        </svg><svg xmlns="http://www.w3.org/2000/svg" width="1em" height="1em" fill="currentColor" viewBox="0 0 16 16" class="bi bi-star-fill text-warning me-1" style="font-size: 18px;">
+                                            <path d="M3.612 15.443c-.386.198-.824-.149-.746-.592l.83-4.73L.173 6.765c-.329-.314-.158-.888.283-.95l4.898-.696L7.538.792c.197-.39.73-.39.927 0l2.184 4.327 4.898.696c.441.062.612.636.282.95l-3.522 3.356.83 4.73c.078.443-.36.79-.746.592L8 13.187l-4.389 2.256z"></path>
+                                        </svg><svg xmlns="http://www.w3.org/2000/svg" width="1em" height="1em" fill="currentColor" viewBox="0 0 16 16" class="bi bi-star-fill text-warning me-1" style="font-size: 18px;">
+                                            <path d="M3.612 15.443c-.386.198-.824-.149-.746-.592l.83-4.73L.173 6.765c-.329-.314-.158-.888.283-.95l4.898-.696L7.538.792c.197-.39.73-.39.927 0l2.184 4.327 4.898.696c.441.062.612.636.282.95l-3.522 3.356.83 4.73c.078.443-.36.79-.746.592L8 13.187l-4.389 2.256z"></path>
+                                        </svg></div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
             </div>
         </div>
     </div> <style>
