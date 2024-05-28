@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html data-bs-theme="light" lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, shrink-to-fit=no">
+    <title>Habana5 | Reservar</title>
+    <link rel="icon" type="image/jpeg" sizes="1920x1920" href="assets/img/logohabana5url.jpg">
+    <link rel="icon" type="image/jpeg" sizes="1920x1920" href="assets/img/logohabana5url.jpg" media="(prefers-color-scheme: dark)">
+    <link rel="icon" type="image/jpeg" sizes="1920x1920" href="assets/img/logohabana5url.jpg">
+    <link rel="icon" type="image/jpeg" sizes="1920x1920" href="assets/img/logohabana5url.jpg" media="(prefers-color-scheme: dark)">
+    <link rel="icon" type="image/jpeg" sizes="1920x1920" href="assets/img/logohabana5url.jpg">
+    <link rel="icon" type="image/jpeg" sizes="1920x1920" href="assets/img/logohabana5url.jpg">
+    <link rel="icon" type="image/jpeg" sizes="1920x1920" href="assets/img/logohabana5url.jpg">
+    <link rel="stylesheet" href="assets/bootstrap/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Montserrat:400,500,600,700&amp;display=swap">
+    <link rel="stylesheet" href="assets/css/bs-theme-overrides.css">
+    <link rel="stylesheet" href="assets/css/Lightbox-Gallery-baguetteBox.min.css">
+    <link rel="stylesheet" href="assets/css/Testimonials-images.css">
+</head>
+
+<body>
+    <div class="d-flex justify-content-center align-items-center" style="min-height: 100vh;">
+        <div class="p-4">
+            <div class="text-center text-sm-center text-md-center text-lg-start text-xl-start text-xxl-start"><img class="img-fluid" src="assets/img/logo_hbn5.webp" width="150" height="84"></div>
+            <div>
+                <form class="text-uppercase text-start">
+                    <h3 class="fw-bold text-center text-sm-center text-md-center text-lg-start mt-4 mb-4" style="letter-spacing: 2px;">RESERVAR</h3>
+                    <div class="mb-3"><label class="form-label fw-semibold" style="font-size: 14px;">Nombre</label><input class="form-control" type="text" name="reserva_nombre"></div>
+                    <div class="mb-3">
+                        <div class="row gx-4 gy-4">
+                            <div class="col-12 col-sm-12 col-md-6 col-lg-4"><label class="form-label fw-semibold" style="font-size: 14px;">Fecha</label><input class="form-control" type="date" name="reserva_dia"></div>
+                            <div class="col-12 col-sm-12 col-md-6 col-lg-4"><label class="form-label fw-semibold" style="font-size: 14px;">HORA</label><input class="form-control" type="time" name="reserva_hora"></div>
+                            <div class="col-12 col-sm-12 col-md-6 col-lg-4"><label class="form-label fw-semibold" style="font-size: 14px;">CANT. PERSONAS</label><input class="form-control" type="number" name="&quot;reserva_personas"></div>
+                        </div>
+                    </div>
+                    <div class="mb-3"><label class="form-label fw-semibold" style="font-size: 14px;">Especificaciones de la reserva</label><textarea class="form-control" name="reserva_obs"></textarea></div><button class="btn btn-dark text-uppercase fw-semibold w-100 reserva_wts" type="button" style="padding: 10px 20px;">Enviar reservación</button>
+                </form>
+            </div>
+        </div>
+    </div><script>
+  document.querySelector('.reserva_wts').addEventListener('click', function(e) {
+    e.preventDefault();
+
+    // Obtén los valores de los inputs
+    let nombre = document.querySelector('input[name="reserva_nombre"]').value;
+    let dia = document.querySelector('input[type="date"]').value;
+    let hora = document.querySelector('input[type="time"]').value;
+    let cantidadPersonas = document.querySelector('input[type="number"]').value;
+    let observaciones = document.querySelector('textarea[name="reserva_obs"]').value;
+
+    // Crea el mensaje
+    let mensaje = `🍽️ *Reservación para Restaurante* 🍽️\n\n` +
+`👤 *Nombre:* ${nombre}\n` +
+`📅 *Fecha de la Reservación:* ${dia}\n` +
+`⏰ *Hora:* ${hora}\n` +
+`👥 *Cantidad de Personas:* ${cantidadPersonas}\n` +
+`💬 *Observaciones:* ${observaciones}\n\n` +
+`¡Gracias por elegir nuestro restaurante! Estamos ansiosos por atenderte. 😊`;
+    // Codifica el mensaje para la URL
+    let mensajeCodificado = encodeURIComponent(mensaje);
+
+    // Crea la URL de WhatsApp
+    let urlWhatsApp = `https://api.whatsapp.com/send?phone=+5355519987&text=${mensajeCodificado}`;
+
+    // Abre la URL de WhatsApp en una nueva ventana
+    window.open(urlWhatsApp, '_blank');
+});
+
+</script>
+    <script src="assets/bootstrap/js/bootstrap.min.js"></script>
+    <script src="assets/js/bs-init.js"></script>
+    <script src="assets/js/Lightbox-Gallery-baguetteBox.min.js"></script>
+    <script src="assets/js/Lightbox-Gallery.js"></script>
+</body>
+
+</html>
