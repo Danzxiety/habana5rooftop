@@ -15,6 +15,7 @@
     <link rel="stylesheet" href="assets/bootstrap/css/bootstrap.min.css">
     <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Montserrat:400,500,600,700&amp;display=swap">
     <link rel="stylesheet" href="assets/css/bs-theme-overrides.css">
+    <link rel="stylesheet" href="assets/css/aos.min.css">
     <link rel="stylesheet" href="assets/css/Lightbox-Gallery-baguetteBox.min.css">
     <link rel="stylesheet" href="assets/css/Testimonials-images.css">
 </head>
@@ -22,7 +23,7 @@
 <body class="bg-home" style="background: linear-gradient(rgba(0,0,0,0.7), rgba(0,0,0,0.46) 99%), url(&quot;assets/img/bg_ani.jpg&quot;) center / cover no-repeat;"><script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
     <section style="backdrop-filter: blur(0px);">
         <div class="container fw-semibold d-flex justify-content-center align-items-center" style="min-height: 100vh;">
-            <div class="text-center mb-5" style="margin-top: -34px;"><img class="img-fluid mb-5" src="assets/img/logo_white.png" width="200" height="111">
+            <div class="text-center mb-5" data-aos="fade-down" data-aos-duration="850" data-aos-delay="150" style="margin-top: -34px;"><img class="img-fluid mb-5" src="assets/img/logo_white.png" width="200" height="111">
                 <h1 class="display-3 fw-semibold text-light d-none d-md-block" style="background: linear-gradient(180deg, #ffffff, #ffffffa3);     -webkit-background-clip: text;     -webkit-text-fill-color: rgba(0, 0, 0, 0);letter-spacing: -1px;text-shadow: 0px 0px 60px #000000cc;">CON LA HABANA A TUS PIES</h1>
                 <div class="d-block d-md-none"><span style="background: linear-gradient(180deg, #ffffff, #ffffffa3);-webkit-background-clip: text;-webkit-text-fill-color: rgba(0, 0, 0, 0);letter-spacing: -1px;text-shadow: 0px 0px 60px #000000cc;font-size: 25.28px;">CON LA HABANA</span>
                     <h1 class="display-3 fw-semibold text-center text-light" style="background: linear-gradient(180deg, #ffffff, #ffffffa3);-webkit-background-clip: text;-webkit-text-fill-color: rgba(0, 0, 0, 0);letter-spacing: -1px;text-shadow: 0px 0px 60px #000000cc;font-size: 42.28px;margin-left: -14px;">&nbsp; A TUS PIES</h1>
@@ -411,6 +412,8 @@
 
 </script>
     <script src="assets/bootstrap/js/bootstrap.min.js"></script>
+    <script src="assets/js/aos.min.js"></script>
+    <script src="assets/js/bs-init.js"></script>
     <script src="assets/js/Lightbox-Gallery-baguetteBox.min.js"></script>
     <script src="assets/js/Lightbox-Gallery.js"></script>
 </body>
