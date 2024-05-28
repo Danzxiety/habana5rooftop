@@ -21,7 +21,7 @@ if ($result->num_rows > 0) {
     }
     echo '<div class="accordion-item border-0 shadow-none" style="background: transparent;"><div class="mb-4 d-flex d-lg-flex justify-content-center justify-content-lg-start" style="display: flex!important; align-content: center; align-items: center;">';
     echo '
-    <h2 class="fw-bold d-lg-flex h3 justify-content-center justify-content-lg-start" style="text-transform: uppercase;letter-spacing: 3px; font-size:22x !important;">' . htmlspecialchars($row['nombre_categoria']) . '</h2>
+    <h2 class="fw-bold d-lg-flex fs-3 justify-content-center justify-content-lg-start" style="text-transform: uppercase;letter-spacing: 3px; font-size:22x !important;">' . htmlspecialchars($row['nombre_categoria']) . '</h2>
     ';
     echo '<a class="btn_acor rounded-pill text-black btn-icon ms-4 shadow-none" style="width: 36px;border-radius: 10px; role="button" data-bs-toggle="collapse" data-bs-target="#collapse' . htmlspecialchars($row['id_categoria']) . '" aria-expanded="false" aria-controls="collapse' . htmlspecialchars($row['id_categoria']) . '"><svg class="rotate-svg" width="24px" height="24px" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg"><g id="SVGRepo_bgCarrier" stroke-width="0"></g><g id="SVGRepo_tracerCarrier" stroke-linecap="round" stroke-linejoin="round"></g><g id="SVGRepo_iconCarrier"> <path d="M18.2929 15.2893C18.6834 14.8988 18.6834 14.2656 18.2929 13.8751L13.4007 8.98766C12.6195 8.20726 11.3537 8.20757 10.5729 8.98835L5.68257 13.8787C5.29205 14.2692 5.29205 14.9024 5.68257 15.2929C6.0731 15.6835 6.70626 15.6835 7.09679 15.2929L11.2824 11.1073C11.673 10.7168 12.3061 10.7168 12.6966 11.1073L16.8787 15.2893C17.2692 15.6798 17.9024 15.6798 18.2929 15.2893Z" fill="#000"></path> </g></svg></a>';
     echo '</div><div id="collapse' . htmlspecialchars($row['id_categoria']) . '" class="accordion-collapse  collapse show" aria-labelledby="heading' . htmlspecialchars($row['id_categoria']) . '" data-bs-parent="#accordionExample">';
@@ -53,7 +53,7 @@ if ($result->num_rows > 0) {
     $result3 = $stmt3->get_result();
 
     while ($row3 = $result3->fetch_assoc()) {
-      echo '<h2 class="fw-bold pt-4" style="text-transform: uppercase;letter-spacing: 2px; font-size:22px !important;">' . htmlspecialchars($row3['nombre_subcategoria']) . '</h2>';
+      echo '<h2 class="fw-bold pt-4" style="text-transform: uppercase;letter-spacing: 2px; font-size:20px !important;">' . htmlspecialchars($row3['nombre_subcategoria']) . '</h2>';
 
       $stmt4 = $db->prepare("SELECT nombre_producto, precio_producto, descripcion_producto, moneda_producto FROM productos WHERE id_subcategoria = ? AND estado_producto = 1 ORDER BY prioridad_producto ASC");
       $stmt4->bind_param("i", $row3['id_subcategoria']);
