@@ -16,6 +16,9 @@ if ($result->num_rows > 0) {
 
   while ($row = $result->fetch_assoc()) {
     echo '<div class="accordion pt-5">';
+    if ($row['nombre_categoria'] == 'DESAYUNOS') {
+      echo '<h6>Los desayunos son de 9am a 12am</h6>';
+    }
     echo '<div class="accordion-item border-0 shadow-none" style="background: transparent;"><div class="mb-4 d-flex d-lg-flex justify-content-center justify-content-lg-start" style="display: flex!important; align-content: center; align-items: center;">';
     echo '
     <h2 class="fw-bold d-lg-flex h3 justify-content-center justify-content-lg-start" style="text-transform: uppercase;letter-spacing: 3px; font-size:22x !important;">' . htmlspecialchars($row['nombre_categoria']) . '</h2>
