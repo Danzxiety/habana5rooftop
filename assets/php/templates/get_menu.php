@@ -53,7 +53,7 @@ if ($result->num_rows > 0) {
     $result3 = $stmt3->get_result();
 
     while ($row3 = $result3->fetch_assoc()) {
-      echo '<h2 class="fw-bold pt-4" style="text-transform: uppercase;letter-spacing: 2px; font-size:20px !important;">' . htmlspecialchars($row3['nombre_subcategoria']) . '</h2>';
+      echo '<h2 class="fw-bold pt-4 justify-content-center justify-content-lg-start" style="text-transform: uppercase;letter-spacing: 2px; font-size:20px !important;">' . htmlspecialchars($row3['nombre_subcategoria']) . '</h2>';
 
       $stmt4 = $db->prepare("SELECT nombre_producto, precio_producto, descripcion_producto, moneda_producto FROM productos WHERE id_subcategoria = ? AND estado_producto = 1 ORDER BY prioridad_producto ASC");
       $stmt4->bind_param("i", $row3['id_subcategoria']);
