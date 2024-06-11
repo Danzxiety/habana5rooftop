@@ -36,7 +36,7 @@
                         <div class="row gx-4 gy-4">
                             <div class="col-12 col-sm-12 col-md-6 col-lg-4"><label class="form-label fw-semibold" style="font-size: 14px;">Fecha</label><input class="form-control" type="date" name="reserva_dia"></div>
                             <div class="col-12 col-sm-12 col-md-6 col-lg-4"><label class="form-label fw-semibold" style="font-size: 14px;">HORA</label><input class="form-control" type="time" name="reserva_hora"></div>
-                            <div class="col-12 col-sm-12 col-md-6 col-lg-4"><label class="form-label fw-semibold" style="font-size: 14px;">CANT. PERSONAS</label><input class="form-control" type="number" name="&quot;reserva_personas"></div>
+                            <div class="col-12 col-sm-12 col-md-6 col-lg-4"><label class="form-label fw-semibold" style="font-size: 14px;">CANT. PERSONAS</label><input class="form-control" type="number" name="reserva_personas"></div>
                         </div>
                     </div>
                     <div class="mb-3"><label class="form-label fw-semibold" style="font-size: 14px;">Especificaciones de la reserva</label><textarea class="form-control" name="reserva_obs"></textarea></div><button class="btn btn-dark text-uppercase fw-semibold w-100 reserva_wts" type="button" style="padding: 10px 20px;">Enviar reservación</button>
@@ -52,7 +52,7 @@
     let telefono = document.querySelector('input[name="reserva_tel"]').value;
     let dia = document.querySelector('input[type="date"]').value;
     let hora = document.querySelector('input[type="time"]').value;
-    let cantidadPersonas = document.querySelector('input[type="number"]').value;
+    let cantidadPersonas = document.querySelector('input[name="reserva_personas"]').value;
     let observaciones = document.querySelector('textarea[name="reserva_obs"]').value;
 
     

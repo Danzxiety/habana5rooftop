@@ -395,9 +395,11 @@
     let telefono = document.querySelector('input[name="reserva_tel"]').value;
     let dia = document.querySelector('input[type="date"]').value;
     let hora = document.querySelector('input[type="time"]').value;
-    let cantidadPersonas = document.querySelector('input[type="number"]').value;
+    let cantidadPersonas = document.querySelector('input[name="reserva_personas"]').value;
     let observaciones = document.querySelector('textarea[name="reserva_obs"]').value;
 
+    
+    
     // Crea el mensaje
     let mensaje = `🍽️ *Reservación para Restaurante* 🍽️\n\n` +
 `👤 *Nombre:* ${nombre}\n` +
