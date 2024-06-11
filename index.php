@@ -344,7 +344,12 @@
                             <label class="form-label mb-2 h6" for="signupModalFormLoginPassword">Nombre <span class="text-danger h5">*</span></label>
                             <input type="text" style="background-color: #f8f8f9;" class="form-control rounded-3 induo" name="reserva_nombre" required="">
                           
-                            <div class="row mb-2 mt-3 gy-4">
+
+                            <label class="form-label mt-2 h6">Teléfono <span class="text-danger h5">*</span></label>
+                            <input type="number" style="background-color: #f8f8f9;" class="form-control rounded-3 induo" name="reserva_tel" required="">
+                          
+
+                            <div class="row mb-2 mt-2 gy-4">
                               <div class="col-12 col-md-4">
                                 <label class="form-label mb-2 h6" for="signupModalFormLoginPassword">Día<span class="text-danger h5">*</span></label>
                             <input type="date" style="background-color: #f8f8f9;" class="form-control rounded-3 induo" name="reserva_dia" required="">
@@ -387,6 +392,7 @@
 
     // Obtén los valores de los inputs
     let nombre = document.querySelector('input[name="reserva_nombre"]').value;
+    let telefono = document.querySelector('input[name="reserva_tel"]').value;
     let dia = document.querySelector('input[type="date"]').value;
     let hora = document.querySelector('input[type="time"]').value;
     let cantidadPersonas = document.querySelector('input[type="number"]').value;
@@ -395,11 +401,13 @@
     // Crea el mensaje
     let mensaje = `🍽️ *Reservación para Restaurante* 🍽️\n\n` +
 `👤 *Nombre:* ${nombre}\n` +
+`📞 *Teléfono:* ${telefono}\n` +
 `📅 *Fecha de la Reservación:* ${dia}\n` +
 `⏰ *Hora:* ${hora}\n` +
 `👥 *Cantidad de Personas:* ${cantidadPersonas}\n` +
 `💬 *Observaciones:* ${observaciones}\n\n` +
 `¡Gracias por elegir nuestro restaurante! Estamos ansiosos por atenderte. 😊`;
+
     // Codifica el mensaje para la URL
     let mensajeCodificado = encodeURIComponent(mensaje);
 

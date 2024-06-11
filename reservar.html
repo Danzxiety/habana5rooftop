@@ -27,6 +27,11 @@
                 <form class="text-uppercase text-start">
                     <h3 class="fw-bold text-center text-sm-center text-md-center text-lg-start mt-4 mb-4" style="letter-spacing: 2px;">RESERVAR</h3>
                     <div class="mb-3"><label class="form-label fw-semibold" style="font-size: 14px;">Nombre</label><input class="form-control" type="text" name="reserva_nombre"></div>
+                    
+                    <label class="form-label mt-2 h6">Teléfono <span class="text-danger h5">*</span></label>
+                    <input type="number" style="background-color: #f8f8f9;" class="form-control rounded-3 induo" name="reserva_tel" required="">
+                  
+
                     <div class="mb-3">
                         <div class="row gx-4 gy-4">
                             <div class="col-12 col-sm-12 col-md-6 col-lg-4"><label class="form-label fw-semibold" style="font-size: 14px;">Fecha</label><input class="form-control" type="date" name="reserva_dia"></div>
@@ -44,19 +49,24 @@
 
     // Obtén los valores de los inputs
     let nombre = document.querySelector('input[name="reserva_nombre"]').value;
+    let telefono = document.querySelector('input[name="reserva_tel"]').value;
     let dia = document.querySelector('input[type="date"]').value;
     let hora = document.querySelector('input[type="time"]').value;
     let cantidadPersonas = document.querySelector('input[type="number"]').value;
     let observaciones = document.querySelector('textarea[name="reserva_obs"]').value;
 
+    
+    
     // Crea el mensaje
     let mensaje = `🍽️ *Reservación para Restaurante* 🍽️\n\n` +
 `👤 *Nombre:* ${nombre}\n` +
+`📞 *Teléfono:* ${telefono}\n` +
 `📅 *Fecha de la Reservación:* ${dia}\n` +
 `⏰ *Hora:* ${hora}\n` +
 `👥 *Cantidad de Personas:* ${cantidadPersonas}\n` +
 `💬 *Observaciones:* ${observaciones}\n\n` +
 `¡Gracias por elegir nuestro restaurante! Estamos ansiosos por atenderte. 😊`;
+
     // Codifica el mensaje para la URL
     let mensajeCodificado = encodeURIComponent(mensaje);
 
@@ -66,6 +76,7 @@
     // Abre la URL de WhatsApp en una nueva ventana
     window.open(urlWhatsApp, '_blank');
 });
+
 
 </script>
     <script src="assets/bootstrap/js/bootstrap.min.js"></script>
